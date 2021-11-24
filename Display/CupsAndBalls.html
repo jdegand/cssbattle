@@ -1,0 +1,60 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div ba></div>
+<div a></div>
+<div d></div>
+<div ca></div>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background:#1A4341;
+  }
+  [a] {
+  width:50;
+  height:50;
+  background:#998235;
+  border-radius:50%
+  }
+  [b] {
+  width:50;
+  height:50;
+  background:#F3AC3C;
+  border-radius:50% 50% 0 0
+  }
+  [ba] {
+  width:50;
+  height:50;
+  background:#F3AC3C;
+  border-radius:0 0 50% 50%
+  }
+  [c] {
+  width:50;
+  height:50;
+  background:#998235;
+  border-radius:50% 50% 0 0
+  }
+  [ca]{
+  width:50;
+  height:50;
+  background:#998235;
+  border-radius:0 0 50% 50%
+  }
+  [d]{
+  width:50;
+  height:50;
+  background:#F3AC3C;
+  border-radius:50%
+  }
+</style>

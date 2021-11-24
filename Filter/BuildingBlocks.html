@@ -1,0 +1,40 @@
+<p a></p>
+<p b></p>
+<style>
+  * {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 10px;
+    position: fixed;
+    top:50%;
+    left:50%;
+  }
+  p {
+    background:#1A4341;
+  }
+  [a]{
+    transform:translate(-135%,-100%)
+  }
+  [a]::after {
+    content:"";
+    background:#1A4341;
+    width:100px;
+    height:50px;
+    position:absolute;
+    transform:translate(50%, 0%);
+    border-radius: 10px;
+  }
+  
+  [b]{
+    transform:translate(35%,-25%)
+  }
+    [b]::after {
+    content:"";
+    background:#1A4341;
+    width:100px;
+    height:50px;
+    position:absolute;
+    transform:translate(-50%, 100%);
+    border-radius: 10px;
+  }

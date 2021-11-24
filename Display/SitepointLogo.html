@@ -1,0 +1,108 @@
+<!--
+    https://stackoverflow.com/questions/10922387/create-an-l-shaped-border-using-html-and-css-is-it-possible
+-->
+
+<div o>
+    <div i></div>
+  </div>
+  <div b>
+    <div l></div>
+  </div>
+  <style>
+    * {
+      background:#222;
+    }
+  [o] {
+      width: 100px;
+      height: 100px;
+      border: 1px solid #222;
+      border-radius: 10px;
+    background:#F2994A;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-70%,-70%) rotate(135deg);
+    z-index:2;
+  }
+  
+  [i] {
+      width: 70px;
+      height:70px;
+      border-right: 1px solid #222;
+      border-bottom: 1px solid #222;
+      margin-top:-1px;
+      margin-left:-1px;
+      background:#222;
+    z-index:-1;
+  }
+  [b] {
+      width: 100px;
+      height: 100px;
+      border: 1px solid #222;
+      border-radius: 10px;
+    background:#2D9CDB;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-40%,-40%) rotate(-40deg);
+    z-index:2;
+      
+  }
+  
+  [l] {
+      width: 70px;
+      height:70px;
+      border-right: 1px solid #222;
+      border-bottom: 1px solid #222;
+      margin-top:-1px;
+      margin-left:-1px;
+      background:#222;
+        z-index:2;
+  }
+  </style>
+
+<!--96.1-->
+<div o>
+    <div i></div>
+  </div>
+  <div b>
+    <div l></div>
+  </div>
+  <style>
+    * {
+      background:#222;
+    }
+  [o] {
+      margin:10px;
+      width:55px;
+      height:75px;
+        background:#F2994A;
+        position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-100%,-70%) rotate(135deg)
+    }
+  [i]{
+      width:35px;
+      height:55px;
+      border-width:2px;
+      border-style:solid;
+      margin:-2px 0 0 -2px;
+      border-color:#222 #F2994A #F2994A #222; }
+    [b] {
+      margin:10px;
+      width:55px;
+      height:75px;
+        background:#2D9CDB;
+        position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-15%,-50%) rotate(-45deg)
+    }
+  [l]{
+      width:35px;
+      height:55px;
+      border-width:2px;
+      border-style:solid;
+      margin:-2px 0 0 -2px;
+      border-color:#222 #2D9CDB #2D9CDB #222; }

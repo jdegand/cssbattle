@@ -1,0 +1,74 @@
+<!--https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-another-using-css-->
+
+<p a></p>
+<p b></p>
+<p c></p>
+<p d></p>
+<div e>
+<style>
+  * {
+    padding:0;
+    margin:0;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  p {
+      border-radius: 50%;
+  	box-shadow: 0px 0px 0px 20px #8F8F8F;
+  	width: 40px;
+  	height:40px;
+  	margin: 3em;
+  }
+  
+    [a] {
+  	box-shadow: 0px 0px 0px 20px #714B67;
+    top: -35px;
+    left: -170px;
+  }
+  [b]{
+    top: -35px;
+    left:-6px
+  }
+  
+  [c]{
+    top: -35px;
+    left: 76px;
+  }
+  
+  [d]{
+    top:-35px;
+    left: -88px;
+  }
+  [e]{
+    width: 20px;
+    height: 70px;
+    background: #8F8F8F;
+    top: -10px;
+    left: -10.5px;
+    border-radius: 20px;
+  }
+  
+</style>
+
+<!--
+<p a>
+<p b>
+<p c>
+<p d>
+<div e>
+<style>
+  *{padding:0;margin:0;background:#191919;position:fixed;
+    top:50%;left:50%;transform:translate(-50%,-50%)}
+  p{border-radius:50%;box-shadow:0 0 0 20px #8F8F8F;
+  	width:40;height:40;margin:3em}
+  [a]{box-shadow:0 0 0 20px #714B67;
+    top:-35;left:-170}
+  [b]{top:-35;left:-6.5}
+  [c]{top:-35;left:76}
+  [d]{top:-35;left:-88}
+  [e]{width:20;height:75;background:#8F8F8F;top:-10;
+    left:-10.5;border-radius:20px;
+-->

@@ -1,0 +1,130 @@
+
+<!--
+
+https://stackoverflow.com/questions/40752681/making-a-smile-horseshoe-half-circle-with-rounded-edges-in-css
+
+https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-another-using-css
+
+<p a></p>
+<p b></p>
+<div hc>
+  <div b lc></div>
+  <div b rc></div>
+</div>
+<style>
+  * {
+    padding:0;
+    margin:0;
+    background:#191919;
+  }
+  [a] {
+      border-radius: 50%;
+  box-shadow:0px 0px 0px 30px #824B20;
+  width: 100px;
+  height:100px;
+    background:#E08027;
+    position:absolute;
+      top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+[hc] {
+    height:80px;
+    width: 50px;
+    border-radius: 100px 0 0 100px;
+    border-top: 20px solid #000;
+    border-left: 20px solid #000;
+    border-bottom: 20px solid #000;
+    transform: translate(100px) rotate(-90deg);
+    position: absolute;
+  top:60%;
+  left:50%;
+  transform:translate(-50%,-50%) rotate(270deg);
+  	border-color:#FFF58F;
+  background:transparent;
+}
+[b] {
+  background-color:#FFF58F;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: absolute;
+}
+[lc] {
+  position:absolute;
+  right: -8px;
+  top: -20px;
+}
+[rc] {
+  position:absolute;
+  bottom: -20px;
+  right: -8px;
+}
+</style>
+-->
+
+<p d></p>
+<p a></p>
+<p b></p>
+<div hc>
+  <div b lc></div>
+  <div b rc></div>
+</div>
+<style>
+  * {
+    padding:0;
+    margin:0;
+    background:#191919;
+  }
+  [a] {
+      border-radius: 50%;
+  box-shadow:0px 0px 0px 30px #824B20;
+  width: 100px;
+  height:100px;
+    background:#E08027;
+    position:absolute;
+      top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+[hc] {
+	height:80px;
+    width: 40px;
+    border-radius: 100px 0 0 100px;
+    border-top: 20px solid #000;
+    border-left: 20px solid #000;
+    border-bottom: 20px solid #000;
+    position: absolute;
+  top:60%;
+  left:50%;
+  transform:translate(-50%,-50%) rotate(270deg);
+  	border-color:#FFF58F;
+  background:transparent;
+}
+[b] {
+  background-color:#FFF58F;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: absolute;
+}
+[lc] {
+  position:absolute;
+  right: -8px;
+  top: -20px;
+}
+[rc] {
+  position:absolute;
+  bottom: -20px;
+  right: -8px;
+}
+  [d]{
+    width:100px;
+    height:100px;
+    background:#191919;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 1
+  }
+</style>

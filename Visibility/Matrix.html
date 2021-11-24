@@ -1,0 +1,36 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div a></div>
+<div b></div>
+<div a></div>
+<div b></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background: #5C434C;
+    margin: 10;
+    padding:0;
+  }
+  div { width:80; 
+     height:80; 
+     background: #F09462;
+     border-radius: 90px 0 0 0;
+  }
+  
+  div:nth-of-type(even) {
+    background: #F5D6B4
+  }
+  [a] {
+    background: #F5D6B4;
+  }
+  [b] {
+    background:#F09462 !important;
+  }

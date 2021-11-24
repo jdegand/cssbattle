@@ -1,0 +1,161 @@
+<!--
+    https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-another-using-css
+-->
+
+<div></div>
+<div oc>
+  <div ic>
+  </div>
+</div>
+<div ot>
+	<div it></div>
+</div>
+<div ob>
+	<div ib></div>
+</div>
+<div or>
+	<div ir></div>
+</div>
+<p b></p>
+<p l></p>
+<p u></p>
+<p e></p>
+<style>
+  * {
+    padding:0;
+    margin:0;
+    background: #191919;
+  }
+  div {
+    background:#4F77FF;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:1;
+  }
+  
+   [oc] {
+   background: #191919;
+   border-radius: 50%;
+   height: 75px;
+   width: 75px;
+   position: absolute;
+   top:37%;
+   left:40%;
+   transform:translate(-60%,-70%);
+   z-index: 2;
+ }
+ [ic] {
+   position: absolute;
+   background: #F9E492;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   top: 50%;
+   left: 50%;
+ }
+  
+     [ot] {
+   background: #191919;
+   border-radius: 50%;
+   height: 65px;
+   width: 65px;
+   position: absolute;
+   top:37%;
+   left:40%;
+   transform:translate(85%,-70%);
+   z-index: 2;
+ }
+ [it] {
+   position: absolute;
+   background: #F9E492;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   top: 50%;
+   left: 50%;
+ }
+       [ob] {
+   background: #191919;
+   border-radius: 50%;
+   height: 65px;
+   width: 65px;
+   position: absolute;
+   top:37%;
+   left:40%;
+   transform:translate(-50%,90%);
+   z-index: 2;
+ }
+ [ib] {
+   position: absolute;
+   background: #F9E492;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   top: 50%;
+   left: 50%;
+ }
+   [or] {
+   background: #191919;
+   border-radius: 50%;
+   height: 65px;
+   width: 65px;
+   position: absolute;
+   top:37%;
+   left:40%;
+   transform:translate(80%,90%);
+   z-index: 2;
+ }
+ [ir] {
+   position: absolute;
+   background: #F9E492;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   top: 50%;
+   left: 50%;
+ }
+  [b]{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    top:25%;
+    left:33%;
+    background:#4F77FF;
+    z-index: 4;
+  }
+    [l]{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    top:25%;
+    left:60%;
+    background:#4F77FF;
+    z-index: 4;
+  }
+      [u]{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    top:65%;
+    left:60%;
+    background:#4F77FF;
+    z-index: 4;
+  }
+    [e]{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    top:64%;
+    left:34%;
+    background:#4F77FF;
+    z-index: 4;
+  }
+</style>
