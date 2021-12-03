@@ -1,0 +1,64 @@
+<!--https://stackoverflow.com/questions/30711203/how-do-i-create-a-teardrop-in-html-->
+
+<p a></p>
+<p b></p>
+<p c></p>
+<p d></p>
+<style>
+  * {
+    background:#191919;
+    position: fixed;
+    top:50%;
+    left:50%;
+  }
+  p {
+    background:#191919;
+  	width: 50px;
+  	height: 50px;
+  	border-radius: 0 50% 50% 50%;
+  	border: 10px solid #5DBCF9;
+  }
+  [a]{
+    transform: translate(-140%,-160%) rotate(180deg);
+  }
+   [a]::before{
+    content: '';
+     position: absolute;
+     height:10px;
+     background:#5DBCF9;
+     width:100px;
+     transform: translate(-100%, -100%)
+  }
+   [a]::after{
+    content: '';
+     position: absolute;
+     height:10px;
+     background:#5DBCF9;
+     width:60px;
+     transform: translate(-60%, -350%) rotate(90deg)
+  }
+  [b]{
+    transform: translate(50%,-160%) rotate(-90deg);
+  }
+   [b]::after{
+    content: '';
+     position: absolute;
+     height:10px;
+     background:#5DBCF9;
+     width:80px;
+     transform: translate(-70%, -110%) rotate(180deg)
+  }
+  [c]{
+    transform: translate(-140%,0%) rotate(100deg);
+  }
+   [c]::before{
+    content: '';
+     position: absolute;
+     height:10px;
+     background:#5DBCF9;
+     width:70px;
+     transform: translate(-65%, -360%) rotate(-100deg)
+  }
+  [d]{
+    transform: translate(50%,0%) rotate(-5deg);
+  }
