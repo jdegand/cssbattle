@@ -1,0 +1,59 @@
+<p a>
+<p b>
+<div>
+<p>
+<p>
+<p>
+<p>
+</div>
+<style>
+    *{
+        background:#AC474B;
+        padding:0;
+        margin:0;
+      }
+      div{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 100px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-60%,-28%)
+      }
+    
+      p {
+        width:60;
+        height:60;
+        background:#fff;
+      }
+      
+      [a] {
+        background:inherit;
+        transform: rotate(90deg);
+        border: 10px solid #fff;
+        width: 20px;
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        position:absolute;
+        top:17%;
+        left:42%;
+        translate:transform(-50%,-50%);
+      }
+      [b]{
+        background:inherit;
+        transform: rotate(-180deg);
+        border: 10px solid #fff;
+        width: 20px;
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        position:absolute;
+        top:17%;
+        left:50%;
+        translate:transform(-50%,-50%);
+      }
