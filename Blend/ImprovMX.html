@@ -1,0 +1,63 @@
+<p z>
+<p a>
+<p b>
+<p c>
+<div d>
+<style>
+    * {
+        padding:0;
+        margin:0;
+        background: #191919;
+        position:fixed;
+        top:50%;
+        left:50%;
+    }
+    p {
+        border:10px solid #5DBCF9;
+        width:75px;
+        height:75px;
+    }
+    [z]{
+        width:30;
+        transform:translate(-50%,-90%) 
+    }
+    [a]{
+        transform:translate(-50%,-59%);
+    }
+    [b] {
+        width:90;
+        transform:translate(-50%,0%) skew(20deg) rotate(70deg);
+    }
+    [c] {
+        width:50;
+        height:50;
+        transform:translate(0%,-10%) skew(30deg) rotate(-60deg);
+    }
+    [d] {
+        position: fixed;
+        width:200;
+        height:100;
+        background:#191919;
+        top:50%;
+        left:50%;
+        transform:translate(-40%,40%);
+    }
+    [d]::before {
+        content: "";
+        position:absolute;
+        width:200;
+        height:10;
+        background:#5DBCF9;
+        border: 10px solid #191919;
+        left:-10%
+    }
+    [d]::after {
+        content: "";
+        position:absolute;
+        width:110;
+        height:10;
+        background:#5DBCF9;
+        border: 10px solid #191919;
+        left:10%;
+        top:20%;
+    }
