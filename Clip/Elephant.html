@@ -1,0 +1,94 @@
+<!--https://www.geeksforgeeks.org/how-to-draw-a-semi-circle-using-html-and-css/--> 
+<!--https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only-->    
+<p l>
+<p p>
+<p r>
+<p t>
+<p a>
+<p b>
+<p e>
+<p f>
+<p z>
+<p w>
+<style>
+    * {
+        background:#998235;
+        position:fixed;
+        top:50%;
+        left:50%;
+    }
+    [l] {
+        height: 20px;
+        width: 40px;
+        border-radius: 50px 50px 0 0;
+        background-color:#998235;
+        z-index: 3;
+        transform:translate(-120%, -80%) rotate(180deg);
+    }
+    [p] {
+        height: 10px;
+        width: 20px;
+        border-radius: 50px 50px 0 0;
+        background-color:#0B2429;
+        z-index: 3;
+        transform:translate(-190%, -155%) rotate(180deg);
+    }
+    [r] {
+        height: 20px;
+        width: 40px;
+        border-radius: 50px 50px 0 0;
+        background-color:#998235;
+        z-index: 3;
+        transform:translate(40%, -80%) rotate(180deg);
+    }
+    [t] {
+        height: 10px;
+        width: 20px;
+        border-radius: 50px 50px 0 0;
+        background-color:#0B2429;
+        z-index: 3;
+        transform:translate(130%, -155%) rotate(180deg);
+    }
+    [a] {
+        width:200;
+        height:200;
+        border-radius:50%;
+        background:#1A4341;
+        transform:translate(-50%,-50%);
+        z-index:2;
+    }
+    [e] {
+        border-radius:60%;
+        width:80;
+        height:180;
+        background:#0B2429;
+        transform:translate(100%,-60%);
+    }
+    [f] {
+        border-radius:60%;
+        width:80;
+        height:180;
+        background:#0B2429;
+        transform:translate(-190%,-60%);
+    }
+    [z] {
+        width:40;
+        height:200;
+        border-radius:40px;
+        background:#0B2429;
+        transform:translate(-50%,8%);
+        z-index:3;
+    }
+    [w] {
+        background:transparent;
+        width: 100px;
+        height: 100px;
+        border: 20px solid #fff;
+        border-radius: 50%;
+        /* Halve the circle */
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        /* Rotate the circle */
+        transform: translate(-50%, 20%) rotate(-45deg);
+        z-index:2
+    }
