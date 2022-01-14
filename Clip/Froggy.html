@@ -1,0 +1,58 @@
+<!--https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-another-using-css-->
+
+<div></div>
+<p a>
+<p b>
+<p z>
+<p y>
+<p s>
+<style>
+  * { 
+    padding:0;
+    margin:0;
+    background:#293462;
+    position:fixed;
+    top:50%;
+    left:50%;
+  }
+  div {
+    background:#FE5F55;
+    border-radius:40px;
+    width:150;
+    height:100;
+    transform:translate(-50%,-40%);
+  }
+  [a]{
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #FFF1C1, 0px 0px 0px 20px #FE5F55;
+    width: 10px;
+    height:10px;
+    transform:translate(-400%,-470%)
+  }
+  [b]{
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #FFF1C1, 0px 0px 0px 20px #FE5F55;
+    width: 10px;
+    height:10px;
+    transform:translate(350%,-470%)
+  }
+  [z]{
+    width:10;
+    height:10;
+    border-radius:50%;
+    transform:translate(25%,100%)
+  }
+   [y]{
+    width:10;
+    height:10;
+    border-radius:50%;
+    transform:translate(-150%,100%)
+  }
+  [s]{
+    width:150;
+    height:40;
+    background:#A64942;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transform:translate(-50%,50%);
+  }
