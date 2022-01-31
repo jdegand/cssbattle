@@ -1,0 +1,106 @@
+<!--https://stackoverflow.com/questions/25939372/css-u-shaped-or-curved-borders-->
+<!--https://stackoverflow.com/questions/26961221/how-to-make-an-oval-in-css-->
+<p a>
+<p b>
+<p c>
+<p e>
+<p f>
+<p s>
+<p t>
+<div>
+    <p n>
+    <p m>
+</div>
+<style>
+    * {
+        background: #F3AC3C;
+        position:fixed;
+        top:50%;
+        left:50%;
+    }
+    [a]{
+        border-radius:40%;
+        width:150;
+        height:150;
+        background:#998235;
+        transform:translate(-50%,-60%);
+        z-index:2;
+    }
+    [b]{
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 10px #998235;
+        width:40;
+        height:40;
+        background:#1A4341;
+        transform:translate(-200%,-225%)
+    }
+    [c]{
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 10px #998235;
+        width:40;
+        height:40;
+        background:#1A4341;
+        transform:translate(100%,-225%)
+    }
+    [e]{
+        border-radius:50%;
+        background:#1A4341;
+        width:20;
+        height:20;
+        z-index:3;
+        transform:translate(-250%,-150%)
+    }
+    [f]{
+        border-radius:50%;
+        background:#1A4341;
+        width:20;
+        height:20;
+        z-index:3;
+        transform:translate(150%,-150%)
+    }    
+    [s]{
+        width:100;
+        height:40;
+        background:#fff;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
+        border-bottom-left-radius:40px;
+        border-bottom-right-radius:40px;
+        z-index:3;
+        transform:translate(-50%, 10%)
+    }
+    [t]{
+        width:0; 
+        height:0; 
+        border-top:30px solid #1A4341;
+        border-left:20px solid #998235;
+        border-right:20px solid #998235; 
+        z-index:4;
+        transform:translate(-50%, -300%)
+    }
+    div {
+        overflow-y:hidden;
+        background:transparent;
+        width: 100;
+        height: 60;
+        z-index: 5;
+        transform: translate(-55%,30%)
+    }  
+    [n]{
+        z-index:5;
+        width: 60;
+        height: 30;
+        background: transparent;
+        border-radius: 50%;
+        border:10px solid #1A4341;
+        transform:translate(-70%,-150%) rotate(90deg)
+    }
+    [m]{
+        z-index:5;
+        width: 60;
+        height: 30;
+        background: transparent;
+        border-radius: 50%;
+        border:10px solid #1A4341;
+        transform:translate(-20%,-150%) rotate(90deg)
+    }
