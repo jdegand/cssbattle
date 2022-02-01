@@ -1,0 +1,574 @@
+<!--https://css-tricks.com/snippets/css/multiple-borders/-->
+
+
+<!-- missed closing div on <div s> threw off design -->
+<!--<div a>
+	<p b>
+</div>
+<div c>
+	<p d>
+</div>
+<div e>
+	<p f>
+</div>
+<div g>
+	<p h>
+</div>
+<div s>
+<p x>
+<p y>
+<style>
+  * {
+    background:#191919;
+  }
+  [a] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-185%,-125%)
+  }
+  [b] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [b]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:95;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-85%)
+  }
+    [c] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-85%,-125%)
+  }
+  [d] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [d]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:95;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-85%)
+  }
+   [e] {
+    width:110px;
+    height:150px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-158.5%,-20%) rotate(180deg)
+  }
+  [f] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [f]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:360;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-25%)
+  }
+   [g] {
+    width:100px;
+    height:150px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-64%, -20%) rotate(180deg)
+  }
+  [h] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+  [h]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:360;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-25%)
+  }
+  [s]{
+    width:45;
+    height:28;
+    background:#E08027;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(140%, -50%);
+    border-radius:8px;
+  }
+  [x]{
+    border-radius:50%;
+    height:10;
+    width:10;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(65%,-280%)
+  }
+    [y]{
+    border-radius:50%;
+    height:10;
+    width:10;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(65%,-140%)
+  }
+</style>-->
+
+<!-- missed closing div on <div s> threw off design -->
+<!--<div a>
+	<p b>
+</div>
+<div c>
+	<p d>
+</div>
+<div e>
+	<p f>
+</div>
+<div g>
+	<p h>
+</div>
+<div s>
+<p x>
+<p y>
+<div j>
+	<p k>
+</div>
+<style>
+  * {
+    background:#191919;
+  }
+  [a] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-185%,-125%)
+  }
+  [b] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [b]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:95;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-85%)
+  }
+    [c] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-85%,-125%)
+  }
+  [d] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [d]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:95;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-85%)
+  }
+   [e] {
+    width:110px;
+    height:150px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-158.5%,-20%) rotate(180deg)
+  }
+  [f] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [f]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:360;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-25%)
+  }
+   [g] {
+    width:100px;
+    height:150px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-64%, -20%) rotate(180deg)
+  }
+  [h] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+  [h]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:360;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-25%)
+  }
+  [s]{
+    width:45;
+    height:28;
+    background:#E08027;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(140%, -50%);
+    border-radius:8px;
+  }
+  [x]{
+    border-radius:50%;
+    height:10;
+    width:10;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(65%,-280%)
+  }
+    [y]{
+    border-radius:50%;
+    height:10;
+    width:10;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(65%,-140%)
+  }
+     [j] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-349.5%,-32%) rotate(180deg);
+  }
+  [k] {
+    border-radius:50px;
+    width:60;
+    height:100;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [k]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:600;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-5%);
+  }
+</style>-->
+
+<div a>
+	<p b>
+</div>
+<div c>
+	<p d>
+</div>
+<div e>
+	<p f>
+</div>
+<div g>
+	<p h>
+</div>
+<div s></div>
+<p x>
+<p y>
+<div j>
+	<p k>
+</div>
+<div l>
+  <p m>
+</div>
+<style>
+  * {
+    background:#191919;
+  }
+  [a] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-185%,-125%)
+  }
+  [b] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [b]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:95;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-85%)
+  }
+    [c] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-85%,-125%)
+  }
+  [d] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [d]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:95;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-85%)
+  }
+   [e] {
+    width:110px;
+    height:150px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-158.5%,-20%) rotate(180deg)
+  }
+  [f] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [f]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:360;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-25%)
+  }
+   [g] {
+    width:100px;
+    height:150px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-64%, -20%) rotate(180deg)
+  }
+  [h] {
+    border-radius:50px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+  [h]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:360;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-25%)
+  }
+  [s]{
+    width:45;
+    height:30;
+    background:#E08027;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(130%, -60%);
+    border-radius:8px;
+    z-index:5
+  }
+  [x]{
+    border-radius:50%;
+    height:10;
+    width:10;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(850%,-300%);
+    z-index:9;
+  }
+    [y]{
+    border-radius:50%;
+    height:10;
+    width:10;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(850%,-160%);
+    z-index:9;
+  }
+     [j] {
+    width:100px;
+    height:100px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-264.5%,-32%) rotate(180deg);
+  }
+  [k] {
+    border-radius:50px;
+    width:60;
+    height:100;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [k]::before {
+    content:"";
+    position:absolute;
+    border-radius:50px;
+    width:30;
+    height:600;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-5%);
+  }
+      [l] {
+    width:50px;
+    height:55px;
+    overflow-y:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(30%,-55%)
+  }
+  [m] {
+    border-radius:30px;
+    width:60;
+    height:200;
+    border:5px solid #E08027;
+    position:relative;
+  }
+   [m]::before {
+    content:"";
+    position:absolute;
+    border-radius:15px;
+    width:30;
+    height:95;
+    border:5px solid #E08027;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-85%)
+  }
+</style>
