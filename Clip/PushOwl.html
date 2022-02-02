@@ -1,0 +1,78 @@
+<!--https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only-->
+
+<p a></p>
+<p b></p>
+<p c></p>
+<p d></p>
+<p e></p>
+<style>
+  * {
+    background: #191919;
+    position:fixed;
+    top:50%;
+    left:50%;
+  }
+  
+  [a] {
+      /* Center the content */
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      /* Border */
+      border: 15px solid #E08027;
+      border-radius: 0px 50% 50% 50%;
+      /* Angle at the top */
+
+      /* Size */
+      height: 80;
+      width: 80;
+    
+      transform:translate(-100%,-80%)
+ }
+   [b] {
+      /* Center the content */
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      /* Border */
+      border: 15px solid #E08027;
+      border-radius: 0px 50% 50% 50%;
+      /* Angle at the top */
+
+      /* Size */
+      height: 80;
+      width: 80;
+    
+      transform:translate(0%,-80%) rotate(90deg);
+      box-shadow: 10px 10px #191919;
+ }
+  [c]{
+    width:60;
+    height:60;
+    background:#E08027;
+    transform:translate(-50%,-20%) rotate(45deg);
+  }
+  [d]{
+  	width: 10px;
+  	height: 10px;
+  	border: 10px solid #E08027;
+  	border-radius: 50%;
+  	/* Halve the circle */
+  	border-bottom-color: #191919;
+  	border-left-color: #191919;
+  	/* Rotate the circle */
+  	transform: translate(-230%,-140%) rotate(-45deg);
+  }
+    [e]{
+  	width: 10px;
+  	height: 10px;
+  	border: 10px solid #E08027;
+  	border-radius: 50%;
+  	/* Halve the circle */
+  	border-bottom-color: #191919;
+  	border-left-color: #191919;
+  	/* Rotate the circle */
+  	transform: translate(150%,-140%) rotate(-45deg);
+  }
