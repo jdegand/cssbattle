@@ -1,0 +1,80 @@
+<!--https://stackoverflow.com/questions/26961221/how-to-make-an-oval-in-css-->
+
+<div a></div>
+<div b></div>
+<p c></p>
+<p d></p>
+<p l></p>
+<p r></p>
+<p e></p>
+<p f></p>
+<p g></p>
+<style>
+  *{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background:#000;
+    padding:0;
+    margin:0;
+    transform: translate(-50%,-50%);
+  }
+  [a] {
+    background:#E96A23;
+    width:300;
+    height: 150;
+  }
+  [b]{
+    background:#000;
+    width:245;
+    height:121;
+    border-radius:15px;
+    z-index:2;
+  }
+  [c]{
+    width: 20;
+    height: 90;
+    transform:translate(-675%,-50%);
+    z-index:3;
+    border-radius:10px
+  }
+   [d]{
+    width: 20;
+    height: 90;
+    transform:translate(575%,-50%);
+    z-index:3;
+    border-radius:10px
+  }
+  [e]{
+    border-radius:50%;
+    background:#EBAE11;
+    width:50;
+    height:50;
+    z-index:10;
+  }
+  [f]{
+    width: 120;
+  	height: 60;
+  	border-radius: 50%;
+    border: 5px solid #EBAE11;
+    z-index:4;
+  }
+    [g]{
+    width: 200;
+  	height: 80;
+  	border-radius: 50%;
+    border: 5px solid #EBAE11;
+    z-index:3;
+  }
+    [l] {
+	width: 150;
+	height: 50;
+	transform: translate(-64%,-51%) skew(-15deg) rotate(90deg);
+	background: #EBAE11;
+  }
+  [r] {
+	width: 150;
+	height: 25;
+	transform: translate(-28%,-52%) skew(-15deg) rotate(90deg);
+	background: #EBAE11;
+  }
