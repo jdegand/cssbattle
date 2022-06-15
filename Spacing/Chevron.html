@@ -1,0 +1,171 @@
+<!--https://stackoverflow.com/questions/15938933/creating-a-chevron-in-css-->
+
+<!-- This was a first attempt. I don't see a way to drastically improve it to get 100%-->
+
+<p class="chevron">
+<p class="chevron-two">
+<p class="chevron-three">
+<style>
+    * {
+        background:#6592CF;
+        position:absolute;
+        top:50%;
+        left:50%;
+        padding:0;
+        margin:0;
+    }    
+    .chevron {
+        position:relative;
+        display:block;
+        height:200px; /*Height should be double border thickness*/
+    }
+    .chevron::before,
+    .chevron::after {
+        transform: translate(-50%,-3%);
+        position:absolute;
+        display:block;
+        content:"";
+        border:120px solid transparent; /*Adjust chevron size*/
+    }
+    /*Change the four instances of 'top' below to rotate chevron*/
+    /*Use (top/right/bottom/left) where you want the back of the chevron to be*/
+    .chevron::before {
+        top:0;
+        border-top-color:#293D7E; /*Chevron Color*/
+    }
+    .chevron::after {
+        top:-35px; /*Adjust thickness*/
+        border-top-color:#6592CF; /*Match chevron background colour*/
+    }       
+    .chevron-two {
+        position:relative;
+        display:block;
+        height:200px; /*Height should be double border thickness*/
+    }
+    .chevron-two::before,
+    .chevron-two::after {
+        transform: translate(-50%,-107%);
+        position:absolute;
+        display:block;
+        content:"";
+        border:120px solid transparent; /*Adjust chevron size*/
+    }
+    .chevron-two::before {
+        top:0;
+        border-top-color:#293D7E; /*Chevron Color*/
+    }
+    .chevron-two::after {
+        top:-35px;
+        border-top-color:#6592CF; 
+    }
+    .chevron-three {
+        position:relative;
+        display:block;
+        height:200px;
+    }
+    .chevron-three::before,
+    .chevron-three::after {
+        transform:translate(-50%,-211%);
+        position:absolute;
+        display:block;
+        content:"";
+        border:120px solid transparent;
+    }    
+    .chevron-three::before {
+        top:0;
+        border-top-color:#293D7E;
+    }
+    .chevron-three::after {
+        top:-35px;
+        border-top-color:#6592CF; 
+    }
+</style>
+
+<!--
+
+I used pseudo elements with overlapping triangles but I had trouble with multiple elements and getting them close together.
+
+Using flex wasn't a good approach.  
+
+<p z></p>
+<style>
+  * {
+    background: #6592CF;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 35px;
+  }
+  [z] {
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: 100px solid #293D7E;
+  }
+  [z]:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -3%);
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 70px solid #6592CF;
+  }
+-->
+
+<!--https://www.youtube.com/watch?v=L3Kx2bEfUDo-->
+
+<!--
+Tweaked youtube video result 100%
+
+html vs body - subtle differences - https://css-tricks.com/html-vs-body-in-css
+
+Has to be divs - tried changing to p tags doesn't work 
+
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<style>
+  body {
+    background:#6592CF;
+  }
+  .a, .b, .c {
+    position:relative;
+    top:42;
+    left:68;
+    width:0;
+    height:0;
+    border-right:125px solid transparent;
+    border-top:100px solid transparent;
+    border-left:125px solid transparent;
+    border-bottom:100px solid #293D7E;
+    transform:rotate(180deg);
+  }
+  
+  .a::after, .b::after, .c::after {
+    content:"";
+    position:absolute;
+    top:-49;
+    left:-90;
+    width:0;
+    height:0;
+    border-right:90px solid transparent;
+    border-top:80px solid transparent;
+    border-left:90px solid transparent;
+    border-bottom:72px solid #6592CF;
+  }
+  .b {
+    top:-108px;
+    z-index:-1;
+  }
+  .c {
+    top:-258px;
+    z-index:-2;
+  }
+-->
