@@ -13,7 +13,7 @@
 
 <style>
   * {
- 	margin:0;
+ 	  margin:0;
     background: #000;
     position:fixed;
   }
@@ -41,38 +41,83 @@
       top: 0;
       right: 0;
   }
-    [d]{
-width: 0;
+  [d]{
+      width: 0;
       height: 0;
       border-top: 75px solid transparent;
       border-right: 200px solid #172D2C;
       border-bottom: 75px solid transparent;
   }
-.box {
-  top:40%;
-  left: 41%;
-}
+  .box {
+      top:40%;
+      left: 41%;
+    }
 
-.side {
-  box-sizing: border-box;
-  height: 146px;
-}
+  .side {
+      box-sizing: border-box;
+      height: 146px;
+    }
 
-.left {
-  width: 210px;
-  transform: skew(-4deg, 20deg);
-  background: #E9AF53;
-  margin-top: -5;
-  margin-left: -170px;
-}
+  .left {
+      width: 210px;
+      transform: skew(-4deg, 20deg);
+      background: #E9AF53;
+      margin-top: -5;
+      margin-left: -170px;
+    }
 
-.right {
-  position: absolute;
-  bottom: -133px;
-  left: 36px;
-  width: 250px;
-  transform: skew(0, -20deg);
-  background: #172D2C;
-}
+  .right {
+      position: absolute;
+      bottom: -133px;
+      left: 36px;
+      width: 250px;
+      transform: skew(0, -20deg);
+      background: #172D2C;
+    }
 
 </style>
+
+<!-- tweaked result since target changed 6/22/22 
+
+<p c></p>
+<p e></p>
+<div class="box">
+  <div class="left side"></div>
+</div>
+
+<style>
+  * {
+ 	  margin:0;
+    background: #172D2C;
+    position:fixed;
+  }
+  [c]{
+    width: 0;
+    height: 0;
+    border-top: 65px solid #172D2C;
+    border-left: 180px solid #E9AF53;
+    border-bottom: 65px solid #172D2C;
+    top: 20;
+    right: 20;
+  }
+  .box {
+    top:40%;
+    left: 41%;
+  }
+
+  .side {
+    box-sizing: border-box;
+    height: 131px;
+  }
+
+  .left {
+    width: 181px;
+    transform: skew(0deg, 20deg);
+    background: #E9AF53;
+    margin-top: -4;
+    margin-left: -145px;
+  }
+</style>
+
+
+-->
