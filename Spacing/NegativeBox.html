@@ -1,0 +1,78 @@
+<!--https://riptutorial.com/css/example/8071/3d-cube-->
+<!--https://codepen.io/ooo/pen/QomVgY-->
+
+<p a></p>
+<p b></p>
+<p c></p>
+<p d></p>
+<p e></p>
+<div class="box">
+  <div class="left side"></div>
+  <div class="right side"></div>
+</div>
+
+<style>
+  * {
+ 	margin:0;
+    background: #000;
+    position:fixed;
+  }
+ 
+  [a]{
+    width:200;
+    height:220;
+    background:#172D2C;
+    top:0;
+    right:0;
+  }
+  [b]{
+    width:200;
+    height:250;
+    background:#172D2C;
+    top:50;
+    left:0;
+  }
+  [c]{
+      width: 0;
+      height: 0;
+      border-top: 75px solid #172D2C;
+      border-left: 200px solid #E9AF53;
+      border-bottom: 75px solid #172D2C;
+      top: 0;
+      right: 0;
+  }
+    [d]{
+width: 0;
+      height: 0;
+      border-top: 75px solid transparent;
+      border-right: 200px solid #172D2C;
+      border-bottom: 75px solid transparent;
+  }
+.box {
+  top:40%;
+  left: 41%;
+}
+
+.side {
+  box-sizing: border-box;
+  height: 146px;
+}
+
+.left {
+  width: 210px;
+  transform: skew(-4deg, 20deg);
+  background: #E9AF53;
+  margin-top: -5;
+  margin-left: -170px;
+}
+
+.right {
+  position: absolute;
+  bottom: -133px;
+  left: 36px;
+  width: 250px;
+  transform: skew(0, -20deg);
+  background: #172D2C;
+}
+
+</style>
