@@ -1,0 +1,46 @@
+<p a></p>
+<p b></p>
+<p c></p>
+<div d></div>
+<div e></div>
+<div f></div>
+<style>
+  * {
+    margin:0;
+    padding:0;
+    background:#000;
+    position:fixed;
+    top:50%;
+    left:50%
+  }
+  p {
+    width:300;
+    height:20;
+    border-radius:100vh;
+    background:#AF067C
+  }
+  [a] {
+    transform:translate(-50%,-300%)
+  }
+  [b] {
+    transform:translate(-50%,200%)
+  }
+  [c] {
+    transform:translate(-50%,-50%) rotate(-4deg)
+  }
+  div {
+    width:20;
+    background:#fff;
+    height:50;
+    z-index:-1
+  }
+  [d] {
+    transform:translate(-600%,-80%) 
+  }
+  [e] {
+    transform:translate(-50%,0%) 
+  }
+  [f] {
+    height:100;
+    transform:translate(500%,-50%) 
+  }
