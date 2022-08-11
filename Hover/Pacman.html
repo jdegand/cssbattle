@@ -1,0 +1,63 @@
+<div p></div>
+<p a></p>
+<p b></p>
+<p c></p>
+<div r></div>
+<span x></span>
+<span y></span>
+<span z></span>
+<style>
+  * {
+    margin:0;
+    background: #000;
+    position:fixed;
+    top:50%;
+    left:50%;
+  }
+  p {
+    width:10;
+    height:10;
+    border-radius:100vh;
+    background:#fff;
+    transform: translate(-50%,-50%);
+  }
+  [b]{
+    transform: translate(-350%,-50%);
+  }
+  [c]{
+    transform: translate(250%,-50%);
+  }
+  [p]{
+    width:0;
+    height:0;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #E0E246;
+    border-left: 30px solid #E0E246;
+    border-bottom: 30px solid #E0E246;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transform: translate(-235%,-50%);
+  }
+  [r]{
+    width:60;
+    height:60;
+    border-radius: 0 90px 90px 0;
+    background:#C74E4E;
+    transform: translate(135%, -50%) rotate(-90deg)
+  }
+  span {
+    width: 0;
+    height: 0;
+    border-left: 10px solid #C74E4E;
+    border-right: 10px solid #C74E4E;
+    border-bottom: 10px solid #000;
+    transform: translate(405%, 200%)
+  }
+  [y] {
+    transform: translate(500%, 200%)
+  }
+  [z] {
+    transform: translate(600%, 200%)
+  }
