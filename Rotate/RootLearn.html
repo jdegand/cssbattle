@@ -1,0 +1,98 @@
+<p t></p>
+<p t></p>
+<p p></p>
+<p l></p>
+<p r></p>
+<p s></p>
+<style>
+  * {
+    position: fixed;
+    margin:0;
+    top:50%;
+    left:50%;
+    background:#EFF2F1;
+  }
+  p {
+    background:#1C1C1C;
+  }
+  [t] {
+    height:125; 
+    width:80;
+    border-radius: 60px 60px 0 0;
+    transform: translate(-60%,-90%) rotate(90deg);
+  }
+    [t]::before {
+    content: "";
+    position: absolute;
+    left: -18;
+    top: 115;
+    border-style: solid;
+    z-index: 1;
+    width: 5;
+    height: 5;
+    border:0;
+    border-bottom: 30px solid #1C1C1C;
+    border-right: 30px solid transparent;
+    transform: rotate(180deg)skew(-45deg, 0deg);
+  }
+
+  [p] {
+    height:60; 
+    width:50;
+    border-radius: 50px 0 0 50px;
+    background:#EFF2F1;
+    transform: translate(-60%,-130%) rotate(180deg);
+    z-index: 2;
+  }
+  [l]{
+    width:40;
+    height:115;
+    transform:translate(-175%,-20%);
+  }
+  [l]::before {
+    content: "";
+    position: absolute;
+    left: 25;
+    top: 95;
+    border-style: solid;
+    z-index: 1;
+    width: 10;
+    height: 5;
+    border:0;
+    border-bottom: 30px solid #1C1C1C;
+    border-right: 30px solid transparent;
+    transform: rotate(80deg)skew(-50deg, 0deg);
+  }
+  [l]::after {
+    content: "";
+    position: absolute;
+    left: -15;
+    top: 96;
+    border-style: solid;
+    z-index: 1;
+    width: 10;
+    height: 5;
+    border:0;
+    border-bottom: 30px solid #1C1C1C;
+    border-left: 30px solid transparent;
+    transform: rotate(230deg) skew(0, -20deg);
+  }
+  [r]{
+    width: 100px;
+    height: 50px;
+    transform: translate(-25%,30%) rotate(90deg) skew(0, -30deg);
+  }
+  [r]::before{
+    content: "";
+    position: absolute;
+    left: 80;
+    top: -15px;
+    border-style: solid;
+    z-index: 1;
+    width: 10;
+    height: 0;
+    border:0;
+    border-bottom: 40px solid #1C1C1C;
+    border-right: 20px solid transparent;
+    transform:rotate(25deg);
+  }
