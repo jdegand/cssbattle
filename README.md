@@ -33,3 +33,4 @@
 - [Stack Overflow](https://stackoverflow.com/questions/25939372/css-u-shaped-or-curved-borders) - css u shaped or curved borders
 - [Codepen](https://codepen.io/seheekim/pen/BKYGZp)- Cylinder
 - [Stack Overflow](https://stackoverflow.com/questions/40752681/making-a-smile-horseshoe-half-circle-with-rounded-edges-in-css) - smile horseshoe
+- [Stack Overflow](https://stackoverflow.com/questions/52712506/cut-a-circle-into-half) - cut a circle in half
