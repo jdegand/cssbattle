@@ -1,0 +1,71 @@
+<!--https://1-notes.com/css-shape-swirl-design/-->
+
+<body bgcolor="#F5D6B4">
+<div class="s">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<p a></p>
+<p b></p>
+<style>
+    .s{
+      width:250;
+      height:100%;
+      transform:rotate(180deg) translate(56%,67%); 
+      position:fixed;
+      top:50%;
+      left:50%
+    }      
+    .s div{
+      position:fixed;
+      border:solid 20px #D86F45;
+      border-radius:75px 75px 0 0;
+      border-bottom:0;
+      box-sizing:border-box
+    }       
+    .s div:nth-of-type(odd){
+      transform:rotate(180deg);
+      top:100
+    }
+    .s div:nth-of-type(1){
+      width:80;
+      height:40;
+      left:70;
+    }        
+    .s div:nth-of-type(2){
+      width:120;
+      height:61;
+      top:40;
+      left:70;
+      border-radius: 125px 125px 0 0;
+    }
+    .s div:nth-of-type(3){
+      width:160;
+      height:80;
+      left:30;
+      border-radius:80px 80px 0 0
+    }       
+    .s div:nth-of-type(4){
+      width:200;
+      height:101;
+      left:30;
+      border-radius:100px 100px 0 0
+    }
+    p{
+      width:20;
+      height:20;
+      background:#D86F45;
+      border-radius:50%;
+      position:fixed;
+      top:50%;
+      left:50%
+    }
+    [a]{
+      transform:translate(-200%,-130%)
+    }
+    [b]{
+      transform:translate(-600%,-133%)
+    }
+</style>
