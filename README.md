@@ -34,3 +34,6 @@
 - [Codepen](https://codepen.io/seheekim/pen/BKYGZp)- Cylinder
 - [Stack Overflow](https://stackoverflow.com/questions/40752681/making-a-smile-horseshoe-half-circle-with-rounded-edges-in-css) - smile horseshoe
 - [Stack Overflow](https://stackoverflow.com/questions/52712506/cut-a-circle-into-half) - cut a circle in half
+- [Stack Overflow](https://stackoverflow.com/questions/44920224/how-to-bend-a-div-in-css) - how to bend a div in css
+- [Codepen](https://codepen.io/samc36/pen/KNEOpG) - eye shape
+- [1-notes](https://1-notes.com/css-shape-swirl-design/) - css swirl design
