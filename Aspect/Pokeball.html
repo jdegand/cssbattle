@@ -1,42 +1,44 @@
-<p></p>
-<p a></p>
-<p b></p>
-<p c></p>
+<body bgcolor=6CB3A9>
+<p a>
+<div>
 <style>
- * {
-   background:#6CB3A9;
-   margin:0;
-  }
-  p {
+  *{
+    margin:0;
     position:fixed;
     top:50%;
     left:50%;
-    transform:translate(-50%,-50%);
-    width:180;
-    height:180;
-    border-radius:50%;
-    background:#781728;
+    transform:translate(-50%,-50%)
   }
   [a]{
-     height:85px;
-     width:200px;
-     border-radius: 100px 100px 0 0;
-     background:#D25B70;
-     transform:translate(-50%,-110%);
+    width:180;
+    height:180;
+    background:#781728;
+    border-radius:50%;
   }
-   [b]{
-     height:85px;
-     width:200px;
-     border-radius: 0 0 100px 100px;
-     background:#FFF;
-     transform:translate(-50%,12%);
+  [a]::before{
+    content:'';
+    position:absolute;
+    transform:translate(-4%,-11%);
+    height:0;
+    width:195;
+    border-top:90px solid #D25B70;
+    border-radius:90px 90px 0 0
   }
-    [c]{
-     height:50px;
-     width:50px;
-     border-radius:50px;
-     background:#F6DF96;
-     transform:translate(-50%,-50%);
-     border: 11px solid #781728
+  [a]::after{
+    content:'';
+    position:absolute;
+    transform:translate(-4%,111%);
+    height:0;
+    width:195;
+    border-bottom: 90px solid #FFF;
+    border-radius:0 0 90px 90px
+  }
+  div{
+    width:50;
+    height:50;
+    background:#F6DF96;
+    border-radius:50%;
+    z-index:5;
+    border:10px solid #781728
   }
   
