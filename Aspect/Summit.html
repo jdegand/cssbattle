@@ -1,30 +1,45 @@
-<div></div>
-<p></p>
+<!--https://stackoverflow.com/questions/55343280/how-to-draw-a-pacman-shape-using-css-->
+
+<body bgcolor=191919>
+<div>
+<div b></div>
+<p>
 <style>
-  * {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    padding:0;
+  *{
     margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+  }
+  div{
+    width:200;
+    height:200;
+    border-radius:50%;
     background:#191919;
+    transform:translate(-50%,-50%)
   }
-  div {
-     width:0;
-     height:0;
-     border-right:100px solid #F9E492;
-     border-top:100px solid #F9E492;
-     border-left:100px solid #F9E492;
-     border-bottom:100px solid #191919;
-     border-radius: 100px;
-    z-index:3
+  [b]{
+    overflow:hidden;
+    background:#F9E492;
+    transform:translate(-50%,-50%) rotate(45deg);
+    z-index:5
   }
-  p {
-     width:0; 
-     height:0; 
-     border-bottom:150px solid #4F77FF;
-     border-left:150px solid transparent;
-     border-right:150px solid transparent; 
-    transform:translate(-50%,0%);
+  [b]::after{
+    content: '';
+    position:fixed;
+    width:50%;  
+    top:50%;
+    bottom:0;
+    right:0;
+    background-color:#191919;
+    transform:translate(6%,6%)
+  }
+  p{
+    width:0;
+    height:0;
+    border-bottom:145px solid #4F77FF;
+    border-left:145px solid transparent;
+    border-right:145px solid transparent; 
+    transform:translate(-50%,6%);
+    z-index:1
   }
