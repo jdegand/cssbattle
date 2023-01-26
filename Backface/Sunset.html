@@ -1,57 +1,54 @@
-<p a></p>
-<p b></p>
-<p c></p>
-<p d></p>
-<p e></p>
+<body bgcolor=1A4341>
+<p a>
+<div>
+  <p b>
+  <p c>
+  <p t>
+</div>
+<span z>
 <style>
   * {
-    background:#1A4341;
-  }
-  [a] {
-     height:40px;
-     width:140px;
-     border-radius: 200px 200px 0 0;
-     background:#998235;
-    position:absolute;
+    margin:0;
+    position:fixed;
     top:50%;
     left:50%;
-    transform:translate(-50%,-250%);
+    transform:translate(-50%,-50%)
+    }
+  [a]{
+    background:#998235;
+    width:200;
+    height:200;
+    border-radius:50%
   }
-    [b] {
-     height:40px;
-     width:140px;
-     border-radius: 200px 200px 0 0;
-     background:#998235;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,100%) rotate(180deg);
+  div{
+    width:259;
+    height:200;
+    overflow:hidden;
+    border-radius:50%;
+    z-index: 1
+  }
+  [z]{
+    width:300;
+    height:140;
+    background:#1A4341
+  }
+  [b]{
+    margin-block:20px;
+    background:#F3AC3C;
+    width:300;
+    height:20;
+    transform:translate(-50%,45%)
   }
   [c]{
-    width:250px;
-    height:25px;
+    transform:translate(-50%,-250%);
     background:#F3AC3C;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%);
+    width:300;
+    height:20
   }
-   [d]{
-    width:260px;
-    height:25px;
+  [t]{
+    transform:translate(-50%,-50%);
     background:#F3AC3C;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -150%);
+    width:250;
+    height:20
   }
   
-   [e]{
-    width:260px;
-    height:25px;
-    background:#F3AC3C;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -300%);
-  }
