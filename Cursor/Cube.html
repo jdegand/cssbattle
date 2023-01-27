@@ -1,26 +1,36 @@
+<body bgcolor=0B2429>
 <p>
-    <p a>
-    <style>
-      *{
-       background:#0B2429; 
-      }
-      p {
-        margin:0;
-        padding:0;
-        position:fixed;
-        top:50%;
-        left:50%;
-        transform:translate(-50%,-50%) rotate(45deg);
-        width: 100px;
-        height: 100px;
-        background:#F3AC3C;
-      }
-      [a]{
-        background:#998235;
-        top:26%;
-        left:34%;
-        transform:translate(-45%,-45%) rotate(45deg);
-        width: 80;
-        height:110;
-      }
-    </style>
+<style>
+  *{
+    margin:0; 
+    position:fixed;
+    top:50%;
+    left:50%
+  }
+  p{
+    position:relative;
+    transform:translate(-100%,-16%) rotate(45deg);
+    width:100;
+    height:100;
+    background:#F3AC3C
+  }
+  p::before {
+    content:'';
+    position:absolute;
+    height:100;
+    width:50;
+    background:#998235;
+    top:-25;
+    left:-50;
+    transform:skewY(45deg)
+  }
+  p::after {
+    content:'';
+    position:absolute;
+    height:50;
+    width:100;
+    background:#1A4341;
+    top:-50%;
+    left:-25;
+    transform:skew(45deg)
+  }
