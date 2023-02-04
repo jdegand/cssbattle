@@ -1,48 +1,31 @@
-<div class="b"></div>
-<div class="a"></div>
-<div class="c"></div>
-<div class="d"></div>
+<body bgcolor=6592CF>
+<p a>
+<p b>
+<p c>
 <style>
-  * {
-    background: #6592CF;
+  *{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
   }
-  .a {
- 	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 50px;
-    height: 50px;
-    background: #EEB850;
-    border-radius: 50%;
+  p{
+    background:#243D83;
+    transform:translate(-50%,-50%);
+    height:150
   }
-  .b {
- 	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 150px;
-    height: 150px;
-    background: #243D83;
-    border-radius: 50%;
+  [a]{
+    width:300;
   }
-   .c {
-     position: relative;
-     top: 25%;
-     left: 10%;
- 	background: #243D83;
-    width: 30px;
-    height: 150px;
-    /* clip path to get shape but haven't found an easy to use generator */
+  [b]{
+    width:150;
+    border-radius:50%;
+    border:50px solid #6592CF
   }
-   .d {
-     position: relative;
-     top: -28%;
-     left: 80%;
- 	background: #243D83;
-    width: 30px;
-    height: 150px;
+  [c]{
+    background:#EEB850;
+    width:50;
+    height:50;
+    border-radius:50%
   }
-</style>
+  
