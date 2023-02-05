@@ -1,97 +1,81 @@
+<body bgcolor=222730>
 <div z></div>
 <div y></div>
 <div bz></div>
 <div by></div>
-<div a></div>
-<div b></div>
+<div a>
+<div b>
 <style>
   *{
-    background: #222730;
+    margin:0
   }
-  [z] {
-  	width: 0; 
-  	height: 0; 
-  	border-top: 70px solid transparent;
-  	border-bottom: 70px solid transparent;
-  	border-right: 70px solid #4CAAB3;
-    position: absolute;
-    top: 10%;
-    left: -10;
-    transform: rotate(45deg);
-    z-index: 3;
+  div{
+    width:0; 
+  	height:0; 
+    position:absolute
   }
-  
-  [bz] {
-  	width: 0; 
-  	height: 0; 
-  	border-top: 110px solid transparent;
-  	border-bottom: 0px solid transparent;
-  	border-right: 110px solid #4CAAB3;
-    position: absolute;
-    bottom: 25%;
-    left: 1;
-    transform: rotate(90deg);
+  [z]{
+  	width:0; 
+  	height:0; 
+  	border-top:75px solid transparent;
+  	border-bottom:75px solid transparent;
+  	border-right:75px solid #4CAAB3;
+    top:26;
+    left:-19;
+    transform:rotate(45deg);
+    z-index:3;
   }
-  [y] {
-  	width: 0; 
-  	height: 0; 
-  	border-left: 0px solid transparent;
-  	border-bottom: 70px solid transparent;
-  	border-right: 90px solid #4CAAB3;
-    position: absolute;
-    top: 25%;
-    left: 78%;
-    z-index: 6;
+  [bz]{
+  	border-top:105px solid transparent;
+  	border-bottom:0 solid transparent;
+  	border-right:105px solid #4CAAB3;
+    bottom:75;
+    left:-7;
+    transform:rotate(90deg)
   }
-  
-  [y]::after {
+  [y]{
+  	border-left:0 solid transparent;
+  	border-bottom:100px solid transparent;
+  	border-right:100px solid #4CAAB3;
+    top:75;
+    left:302;
+    z-index:6
+  }
+  [y]::after{
     content: '';
-  	width: 0; 
-  	height: 0; 
-  	border-top: 90px solid transparent;
-  	border-bottom: 0px solid transparent;
-  	border-right: 90px solid #4CAAB3;
+  	border-top:90px solid transparent;
+  	border-bottom:0px solid transparent;
+  	border-right:90px solid #4CAAB3;
     position: absolute;
-    bottom: -90px;
-    right: -90px;
-    transform: rotate(270deg);
+    bottom:-90;
+    right:-90;
+    transform:rotate(270deg)
+  }
+  [by]{
+  	border-top: 100px solid transparent;
+  	border-bottom: 0px solid transparent;
+  	border-right:100px solid #4CAAB3;
+    bottom:75;
+    right:-2;
+    z-index:5
+  }
+  [a]{
+    width:150;
+    height:150;
+    background:#4CAAB3;
+  	top:50%;
+  	left:50%;
+  	transform:translate(-50%,-50%) rotate(45deg);
+    z-index:7
+  }
+  [b]{
+    width:50;
+    height:50;
+    background:#393E46;
+    border-radius:50%;
+    top:50%;
+  	left:50%;
+  	transform:translate(-50%,-50%);
+    z-index:10
   }
   
-    [by] {
-  	width: 0; 
-  	height: 0; 
-  	border-top: 90px solid transparent;
-  	border-bottom: 0px solid transparent;
-  	border-right: 90px solid #4CAAB3;
-    position: absolute;
-    bottom: 25%;
-    right: 1;
-    z-index: 5;
-  }
-
-  [a] {
-    width: 150px;
-    height: 150px;
-    background: #4CAAB3;
-    position: fixed;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%) rotate(45deg);
-    z-index: 7;
-  }
-  [b] {
-    width: 50px;
-    height: 50px;
-    background: #393E46;
-    border-radius: 50%;
-    position: fixed;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-    z-index: 10;
-  }
-</style>
-
-<!--
-560.64 (98.2% match)
--->
