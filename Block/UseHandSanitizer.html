@@ -1,65 +1,110 @@
-<p a></p>
-<p b></p>
-<p c></p>
-<p d></p>
-<p e></p>
-<p f></p>
+<body bgcolor=1A4341>
+<p a>
+<p b>
+<p c>
+<p d>
+<p e>
+<p f>
+<p g>
+<p h>
 <style>
-  * {
-    background:#1A4341;
+  *{
+    margin:0;
   }
   [a]{
     background:#F3AC3C;
     border-radius:20px;
-    height:160;
+    height:110;
     width:100;
     position:fixed;
     top:50%;
     left:50%;
-    transform:translate(-50%,-50%);
+    transform:translate(-50%,-37%);
   }
-    [a]::before {
+  [a]::before {
     content:"";
     background:#998235;
     border-radius:20px;
-    height:80;
+    height:100;
     width:100;
     position:fixed;
     top:50%;
     left:50%;
-    transform:translate(-50%,0%);
+    transform:translate(-50%,-13%);
+  }
+  [a]::after {
+    content:"";
+    background:#998235;
+    border-radius:50%;
+    height:50;
+    width:50;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-100%,-45%);
   }
   [b]{
     background:#F3AC3C;
     width:20;
     height:30;
-    transform:translate(900%,160%)
+    transform:translate(950%,200%)
   }
-   [c]{
+  [c]{
     background:#F3AC3C;
     width:150;
     height:20;
-    transform:translate(90%,-20%);
+    transform:translate(100%,100%);
     border-radius:20px;
   }
-    [d]{
+  [d]{
     background:#F3AC3C;
     width:40;
     height:20;
-    transform:translate(640%,-140%) rotate(90deg);
+    transform:translate(675%,50%) rotate(90deg);
     border-radius:20px;
   }
   [e]{
     border-radius:50%;
     background:#998235;
-    width:22;
-    height:22;
-    transform:translate(1200%, -100%)
+    width:20;
+    height:20;
+    transform:translate(1400%, 150%)
   }
-    [f]{
+  [f]{
     border-radius:50%;
     background:#998235;
-    width:22;
-    height:22;
-    transform:translate(1200%, -100%)
+    width:20;
+    height:20;
+    transform:translate(1400%, 200%)
+  }
+  [g]{
+    border-radius:50px 0 0px 50px;
+    width:50;
+    height:50;
+    background:#F3AC3C;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(0%,-20%) rotate(270deg);
+  }
+  [g]::after {
+    content:"";
+    background:#F3AC3C;
+    height:10;
+    width:10;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(62%,-280%) rotate(90deg);
+    border-radius:0 0 0 10px
+  }
+  [h]{
+    position:fixed;
+    top:50%;
+    left:50%;
+    background:#F3AC3C;
+    transform:translate(-50%,-200%);
+    width:50;
+    height:30;
+    border-radius:10px 10px 0 0
   }
