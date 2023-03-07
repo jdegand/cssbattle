@@ -1,47 +1,36 @@
-<p a></p>
-<p b></p>
-<p c></p>
-<p d></p>
-<style>body{margin:0;background:#F2F2B6}
+<body bgcolor=F2F2B6>
+<p a>
+<p b>
+<p c>
+<p d>
+<style>
+  *{
+    margin:0;
+    position:absolute;
+    top:50%;
+    left:50%
+  }
+  p{
+    width:0; 
+    height:0; 
+    border-left:74px solid transparent;
+    border-right:74px solid transparent;
+    border-top:130px solid #FF6D00
+  }
   [a]{
-    width: 0;
-    height: 0;
-    border-left: 80px solid transparent;
-    border-right: 80px solid transparent;
-    border-bottom: 130px solid #FD4602;
-    position: absolute;
-    top: 23%;
-    left: 41%;
+    z-index:2;
+    transform:translate(-94%,-50%)
   }
   [b]{
-    width: 0;
-    height: 0;
-    border-left: 85px solid transparent;
-    border-right: 85px solid transparent;
-    border-top: 130px solid #FD4602;
-    position: absolute;
-    top: 23%;
-    left: 16%;
+    border-top:130px solid #FD4602;
+    transform:translate(-80%,-50%)
   }
-  [c] {
-    width: 0;
-    height: 0;
-    border-left: 80px solid transparent;
-    border-right: 80px solid transparent;
-    border-top: 130px solid #FF6D00;
-    position: absolute;
-    top: 23%;
-    left: 13%;
+  [c]{
+    border-top:130px solid #FD4602;
+    transform:translate(-20%,-50%) rotate(180deg);
+    z-index:3
   }
-   [d]{
-    width: 0;
-    height: 0;
-    border-left: 80px solid transparent;
-    border-right: 80px solid transparent;
-    border-bottom: 130px solid #FF6D00;
-    position: absolute;
-    top: 23%;
-    left: 46%;
-    z-index: -1;
+  [d]{
+    border-top:130px solid #FF6D00;
+    transform:translate(-6%,-50%) rotate(180deg)
   }
-  </style>
