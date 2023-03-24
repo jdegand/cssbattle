@@ -6,53 +6,53 @@
 <p c></p>
 <p d></p>
 <p e></p>
-<div f></div>
 <style>
-  * {
+  *{
     background:#6592CF;
     position:fixed;
     top:50%;
     left:50%;
-    padding:0;
     margin:0;
   }
-  div {
-    border: 10px solid #243D83;
-    width:150;
-    height:150;
+  div{
+    width:170;
+    height:170;
+    box-shadow:inset 0 0 0 10px #243D83;
     border-radius:50%;
-    transform:translate(-50%,-45%);
+    transform:translate(-50%,-44%) rotate(-14deg);
+    overflow:hidden;
   }
-  p {
-   background:#243D83;
-    position: relative;
-    box-shadow: 0 0 0 10px #243D83;
+  div:after{
+    content:'';
+    position:absolute;
+    width:100;
+    height:100;
+    border-radius:50%;
+    background:#6592CF;
+    border:11px solid #243D83;
+    transform:translate(0%, 100%);
+  }
+    p{
+    background:#243D83;
+    position:relative;
+    box-shadow:0 0 0 10px #243D83;
     width:10;
     height:10;
-    border: 10px solid #6592CF;
-    border-radius:50%;
+    border:10px solid #6592CF;
+    border-radius:50%
   }
-  [a] {
-    transform:translate(-325%,100%);
+  [a]{
+    transform:translate(-340%,87%)
   }
-  [b] {
-    transform:translate(-325%,-250%);
+  [b]{
+    transform:translate(-340%,-252%)
   }
-  [c] {
-    transform:translate(-100%,-470%);
+  [c]{
+    transform:translate(-100%,-490%)
   }
-  [d] {
-    transform:translate(130%,-450%);
+  [d]{
+    transform:translate(140%,-452%)
   }
-  [e] {
-    transform:translate(130%,-300%);
-  }
-   [f] {
-     border: none;
-    border-top: 10px solid #243D83;
-    width:90;
-    height:50;
-    border-radius:60%;
-    transform:translate(-50%,85%);
-    z-index: 5;
+  [e]{
+    transform:translate(140%,-313%)
   }
