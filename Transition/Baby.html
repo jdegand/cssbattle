@@ -1,70 +1,65 @@
-<p a></p>
-<p b></p>
-<p c></p>
-<p d></p>
-<p e></p>
-<p f></p>
+<body bgcolor=293462>
+<p a>
+<p b>
+<p c>
+<p d>
+<p e>
+<p f>
 <style>
-  * {
-	background:#293462;
+  *{
+	margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
   }
   [a]{
     background:#FE5F55;
-    width:200px;
-    height:200px;
-    border-radius: 50px 50px 90px 90px;
-    position:absolute;
+    width:200;
+    height:200;
+    border-radius:51px 51px 100px 100px;
+    transform:translate(-50%,-50%) rotate(180deg);
+    overflow:hidden
+  }
+  [a]::before{
+    content:'';
+    position:fixed;
     top:50%;
     left:50%;
-    transform:translate(-50%,-58%) rotate(180deg);
+    transform:translate(0%,50%) rotate(-20deg);
+    width:100;
+    height:100;
+    border-radius:50% 50% 0 0;
+    background:#FFF1C1
+  }
+  [a]::after{
+    content:'';
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-100%,50%) rotate(-20deg);
+    width:100;
+    height:100;
+    border-radius:50% 50% 0 0;
+    background:#FFF1C1
   }
   [b]{
-    width:60px;
-    height:60px;
+    width:60;
+    height:60;
     background:#FFF1C1;
     border-radius:50%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(25%,-50%)
+    transform:translate(33%,-18%)
   }
-    [c]{
-    width:60px;
-    height:60px;
+  [c]{
+    width:60;
+    height:60;
     background:#FFF1C1;
     border-radius:50%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-120%,-50%)
+    transform:translate(-133%,-18%)
   }
-    [d]{
-    width:45px;
-    height:10px;
+  [d]{
+    width:40;
+    height:10;
     background:#FFF1C1;
     border-radius:10px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,550%);
-  }
-  [e]{
-    width:90px;
-    height:50px;
-    background:#FFF1C1;
-    border-radius:50%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(0%,-220%) rotate(30deg);
-  }
-    [f]{
-    width:90px;
-    height:50px;
-    background:#FFF1C1;
-    border-radius:50%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-100%,-220%) rotate(-30deg);
+    transform:translate(-50%,700%)
   }
