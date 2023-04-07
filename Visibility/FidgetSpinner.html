@@ -1,48 +1,38 @@
-<p a></p>
-<p b></p>
-<p c></p>
-<p d></p>
+<body bgcolor=09042A>
+<div a></div>
+<p b>
+<p c>
+<p d>
 <style>
-  * {
-    background:#09042A;
-  }
-  p {
-    border-radius:50%;
-    width:60;
-    height:60;
-    background:#F5BB9C;
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-13%);
-  }
-  [a]{
-    border: 10px solid #09042A;
-    z-index: 5;
-  }
- 
-  [b]{
-    transform: translate(-50%,-130%);
-    border: 10px solid #09042A;
-    z-index: 5;
-  }
-   [c]{
-    transform: translate(-130%,-70%);
-    border: 10px solid #E78481;
-    background:#09042A;
-  }
-  [c]::after {
-    content:'';
-    background:#E78481;
-    width:65;
-    height:50;
+  *{
+    margin:0;
     position:absolute;
     top:50%;
-    left:50%;
-    transform:translate(45%,-50%)
+    left:50%
   }
-    [d]{
-    transform: translate(30%,-70%);
-    border: 10px solid #E78481;
+  [a]{
+    background:#E78481;
+    width:200;
+    height:60;
+    border-radius:50px;
+    transform:translate(-50%,-50%)
+  }
+  [b]{
     background:#09042A;
+    border-radius:50%;
+    height:60;
+    width:60;
+    box-shadow:0 0 0 10px #E78481;
+    transform:translate(-150%,-50%);
+    -webkit-box-reflect:right 60px
   }
+  [c]{
+    background:#F5BB9C;
+    border-radius:50%;
+    height:60;
+    width:60;
+    box-shadow:0 0 0 10px #09042A;
+    transform:translate(-50%,-139%);
+    -webkit-box-reflect:below 46px
+  }
+  
