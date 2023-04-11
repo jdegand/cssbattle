@@ -1,64 +1,64 @@
 <!--https://stackoverflow.com/questions/30711203/how-do-i-create-a-teardrop-in-html-->
 
+<body bgcolor=191919>
 <p a></p>
 <p b></p>
 <p c></p>
 <p d></p>
 <style>
-  * {
-    background:#191919;
+  *{
     position: fixed;
     top:50%;
     left:50%;
+    margin:0
   }
-  p {
-    background:#191919;
-  	width: 50px;
-  	height: 50px;
-  	border-radius: 0 50% 50% 50%;
-  	border: 10px solid #5DBCF9;
+  p{
+    width:50;
+    height:50;
+    border-radius: 0 50% 50% 50%;
+    border:10px solid #5DBCF9
   }
   [a]{
-    transform: translate(-140%,-160%) rotate(180deg);
+    transform:translate(-135%,-138%) rotate(180deg)
   }
-   [a]::before{
-    content: '';
-     position: absolute;
-     height:10px;
-     background:#5DBCF9;
-     width:100px;
-     transform: translate(-100%, -100%)
+  [a]::before{
+    content:'';
+    position:absolute;
+    height:10;
+    background:#5DBCF9;
+    width:100;
+    transform:translate(-100%, -96%)
   }
-   [a]::after{
-    content: '';
-     position: absolute;
-     height:10px;
-     background:#5DBCF9;
-     width:60px;
-     transform: translate(-60%, -350%) rotate(90deg)
+  [a]::after{
+    content:'';
+    position:absolute;
+    height:10;
+    background:#5DBCF9;
+    width:70;
+    transform:translate(-56.5%, -400%) rotate(90deg)
   }
   [b]{
-    transform: translate(50%,-160%) rotate(-90deg);
+    transform:translate(37.8%,-138.3%) rotate(-90deg)
   }
-   [b]::after{
-    content: '';
-     position: absolute;
-     height:10px;
-     background:#5DBCF9;
-     width:80px;
-     transform: translate(-70%, -110%) rotate(180deg)
+  [b]::after{
+    content:'';
+    position:absolute;
+    height:10;
+    background:#5DBCF9;
+    width:90;
+    transform:translate(-100%, -95%) rotate(180deg)
   }
   [c]{
-    transform: translate(-140%,0%) rotate(100deg);
+    transform:translate(-135%,34%) rotate(90deg)
   }
-   [c]::before{
-    content: '';
-     position: absolute;
-     height:10px;
-     background:#5DBCF9;
-     width:70px;
-     transform: translate(-65%, -360%) rotate(-100deg)
+  [c]::before{
+    content:'';
+    position:absolute;
+    height:10;
+    background:#5DBCF9;
+    width:70;
+    transform:translate(-57%, -400%) rotate(-90deg)
   }
   [d]{
-    transform: translate(50%,0%) rotate(-5deg);
+    transform:translate(38%,35%)
   }
