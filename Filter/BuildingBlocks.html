@@ -1,40 +1,45 @@
-<p a></p>
-<p b></p>
+<body bgcolor=F3AC3C>
+<p a>
+<p b>
+<p c>
+<p d>
+<p e>
 <style>
-  * {
-    width: 100px;
-    height: 100px;
-    background: #F3AC3C;
-    border-radius: 10px;
-    position: fixed;
+  *{
+    margin:0;
+    position:fixed;
     top:50%;
-    left:50%;
+    left:50%
   }
-  p {
+  p{
     background:#1A4341;
+    border-radius:10px
   }
   [a]{
-    transform:translate(-135%,-100%)
+    width:100;
+    height:100;
+    transform:translate(-135%,-85.5%)
   }
-  [a]::after {
-    content:"";
-    background:#1A4341;
-    width:100px;
-    height:50px;
-    position:absolute;
-    transform:translate(50%, 0%);
-    border-radius: 10px;
-  }
-  
   [b]{
-    transform:translate(35%,-25%)
+    width:100;
+    height:100;
+    transform:translate(35%,-15.5%)
   }
-    [b]::after {
-    content:"";
-    background:#1A4341;
-    width:100px;
-    height:50px;
-    position:absolute;
-    transform:translate(-50%, 100%);
-    border-radius: 10px;
+  [c]{
+    width:80;
+    height:60;
+    transform:translate(-19%,41%);
+    border-top-left-radius:25px
+  }
+  [d]{
+    width:80;
+    height:60;
+    transform:translate(-81%,-142%);
+    border-bottom-right-radius:25px
+  }
+  [e]{
+    background:#F3AC3C;
+    width:70;
+    height:70;
+    transform:translate(-50%,-50%)
   }
