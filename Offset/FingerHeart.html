@@ -1,0 +1,32 @@
+<body bgcolor=4F77FF>
+<p>
+<style>
+  p{
+    position:fixed;
+    background:#1038BF;
+    width:200;
+    height:200;
+    top:-66;
+    left:-50;
+  }
+  p::before{
+    content:'';
+    position:fixed;
+    width:50;
+    height:50;
+    background:#1038BF;
+    border-radius:50% 0 0 50%;
+    top:100;
+    left:150;
+    transform:rotate(180deg)
+  }
+  p::after{
+    content:'';
+    position:fixed;
+    width:50;
+    height:50;
+    background:#1038BF;
+    border-radius:0 0 50% 50%;
+    top:150;
+    left:100
+  }
