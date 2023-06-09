@@ -37,3 +37,6 @@
 - [Stack Overflow](https://stackoverflow.com/questions/44920224/how-to-bend-a-div-in-css) - how to bend a div in css
 - [Codepen](https://codepen.io/samc36/pen/KNEOpG) - eye shape
 - [1-notes](https://1-notes.com/css-shape-swirl-design/) - css swirl design
+- [Dev.to](https://dev.to/astrit/css-only-outlined-triangle-1k8j) - css only outlined triangle
+- [CSS.gg](https://css.gg/shape-triangle) - shape-triangle
+- [Coding Dude](https://www.coding-dude.com/wp/css/create-a-triangle/) - create a triangle
