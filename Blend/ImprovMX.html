@@ -1,63 +1,81 @@
-<p z>
-<p a>
-<p b>
-<p c>
-<div d>
+<body bgcolor=191919>
+<p a></p>
+<p b></p>
+<div>
+    <p c></p>
+    <p d></p>
+</div>
+<a w></a>
+<a x></a>
+<a y></a>
+<a z></a>
 <style>
-    * {
-        padding:0;
-        margin:0;
-        background: #191919;
+    *{
         position:fixed;
         top:50%;
-        left:50%;
-    }
-    p {
-        border:10px solid #5DBCF9;
-        width:75px;
-        height:75px;
-    }
-    [z]{
-        width:30;
-        transform:translate(-50%,-90%) 
+        left:50%
     }
     [a]{
-        transform:translate(-50%,-59%);
+        width:30;
+        height:20;
+        border:10px solid #5DBCF9;
+        transform:translate(-50%,-256%)
     }
-    [b] {
-        width:90;
-        transform:translate(-50%,0%) skew(20deg) rotate(70deg);
-    }
-    [c] {
-        width:50;
+    [b]{
+        width:81;
         height:50;
-        transform:translate(0%,-10%) skew(30deg) rotate(-60deg);
+        border:10px solid #5DBCF9;
+        transform:translate(-50%,-101%)
     }
-    [d] {
-        position: fixed;
+    div{
         width:200;
-        height:100;
-        background:#191919;
+        height:90;
+        overflow: hidden;
+        position:absolute;
         top:50%;
         left:50%;
-        transform:translate(-40%,40%);
+        transform:translate(-53%,-60%)
     }
-    [d]::before {
-        content: "";
-        position:absolute;
+    [c]{
+        width:75;
+        height:75;
+        border:10px solid #5DBCF9;
+        background:#191919;
+        border-top:0;
+        transform:translate(-70.5%,-20%) rotate(60deg)
+    }
+    [d]{
+        width:75;
+        height:75;
+        border:10px solid #5DBCF9;
+        border-top:0;
+        background:#191919;
+        transform:translate(-34%,-20%) rotate(-60deg)
+    }
+    [w]{
+        border-left:15px solid transparent;
+        border-right:15px solid transparent;
+        border-bottom:10px solid #5DBCF9;
+        border-top:10px solid transparent;
+        display:inline-block;
+        transform:translate(-50%,-180%);
+        z-index:100
+    }
+    [x]{
+        width:10;
+        height:65;
+        background:#5DBCF9;
+        transform:translate(-50%,-33%)
+    }
+    [y]{
         width:200;
         height:10;
         background:#5DBCF9;
-        border: 10px solid #191919;
-        left:-10%
+        transform:translate(-50%,539%)
     }
-    [d]::after {
-        content: "";
-        position:absolute;
+    [z]{
         width:110;
         height:10;
         background:#5DBCF9;
-        border: 10px solid #191919;
-        left:10%;
-        top:20%;
+        transform:translate(-50%,738%)
     }
