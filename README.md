@@ -40,3 +40,5 @@
 - [Dev.to](https://dev.to/astrit/css-only-outlined-triangle-1k8j) - css only outlined triangle
 - [CSS.gg](https://css.gg/shape-triangle) - shape-triangle
 - [Coding Dude](https://www.coding-dude.com/wp/css/create-a-triangle/) - create a triangle
+- [HashNode](https://nazanin-ashrafi.hashnode.dev/how-to-make-a-moon-with-css) - how to make a moon with css
+- [Toptal](https://www.toptal.com/developers/cssminifier) - css minifier
