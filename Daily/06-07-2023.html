@@ -1,7 +1,10 @@
 <body bgcolor=F5D6B4>
 <div hc>
   <div b lc>
-  <div b rc>
+  <div c rc>
+</div>
+<p l>
+<p r>
 <style>
 *{
   margin:0
@@ -18,24 +21,47 @@
   left:50%;
   transform:translate(-50%,-60%) rotate(270deg);
   border-color:#D86F45;
-  background:transparent;
-  z-index: 2;
+  background:transparent
 }
 [b]{
-  background-color:#D86F45;
+  background-color:#F5D6B4;
   width:40;
   height:40;
-  border-radius:50%;
   position:fixed;
+  left:50px;
+  top:150px
+} 
+[c]{
+  background-color:#F5D6B4;
+  width:40;
+  height:40;
+  position:fixed;
+  left:50px;
+  top:110px
 } 
 [lc]{
   position:fixed;
   right:-5;
   top:-40;
-  z-index:20;
+  z-index:20
 }
 [rc]{
   position:fixed;
   bottom:-40;
-  right:-5;
+  right:-5
+}
+p{
+  width:40;
+  height:40;
+  background:#D86F45;
+  border-radius:50%;
+  position:fixed
+}
+[l]{
+  top:-40;
+  left:36
+}
+[r]{
+  top:110;
+  left:36
 }
