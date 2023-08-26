@@ -44,3 +44,7 @@
 - [Toptal](https://www.toptal.com/developers/cssminifier) - css minifier
 - [Unused CSS](https://unused-css.com/blog/css-half-circle/) - css half circle
 - [Stack Overflow](https://stackoverflow.com/questions/39339196/how-to-make-circles-repeat-in-the-background-of-an-element-in-full-css) - how to make circles repeat in the background of an element
+- [Stack Exchange](https://codegolf.stackexchange.com/questions/259254/is-there-any-less-code-way-to-make-a-leaf-eye-shape-in-css) - eye shape in css
+- [Stack Overflow](https://stackoverflow.com/questions/26961221/how-to-make-an-oval-in-css)- oval 
+- [CSS Tricks](https://css-tricks.com/how-to-play-and-pause-css-animations-with-css-custom-properties) - play and pause css animations
+- [W3 Schools](https://www.w3schools.com/howto/howto_css_loader.asp) - css loader
