@@ -1,54 +1,54 @@
 <!--[Codepen](https://codepen.io/seheekim/pen/BKYGZp) Cylinder -->
 
 <p>
-    <div b></div>
-    <style>
-      *{
-        padding:0;
-        margin:0;
-        background:#14313E;
-      }
-      p {
-        position: relative;
-        overflow: hidden;
-        margin: 0 auto;
-        width: 100px;
-        height: 150px;
-        border-radius: 50px/25px;
-        background-color: #BA3E46;
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%,-30%)
-      }
-      p:before {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100px;
-      height: 50px;
-      border-radius: 50px/25px;
-      background-color:#F3695A;
-      content: '';
-    }
-    p:after {
-      position: absolute;
-      left: 10;
-      top: -10;
-      width: 80px;
-      height: 40px;
-      border-radius: 50px/25px;
-      background-color:#14313E;
-      content: '';
-    } 
-    [b] {
-        background:#F3AC3C;
-        height:50px;
-        width:30px;
-        border-radius: 70px 0px 70px 0;
-        position:absolute;
-        top:21%;
-        left:50%;
-        z-index: 5; 
-       transform: skew(5deg);
-      }
+<div b></div>
+<style>
+  *{
+    padding:0;
+    margin:0;
+    background:#14313E
+  }
+  p{
+    position:relative;
+    overflow:hidden;
+    margin:0 auto;
+    width:80;
+    height:135;
+    border-radius:60px/30px;
+    background-color:#BA3E46;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-33%)
+  }
+  p:before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:80;
+    height:33;
+    border-radius:50px/25px;
+    background-color:#F3695A
+  }
+  p:after{
+    content:'';
+    position:absolute;
+    left:10;
+    top:-5;
+    width:60;
+    height:30;
+    border-radius:60px/30px;
+    background-color:#14313E
+  } 
+  [b]{
+    background:#F3AC3C;
+    height:45;
+    width:30;
+    border-radius:75px 0px 75px 0;
+    position:absolute;
+    top:21%;
+    left:50%;
+    z-index:5; 
+    transform:skew(3deg)
+  }
