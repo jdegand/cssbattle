@@ -4,6 +4,8 @@
 
 ## Useful Resources
 
+- [CSS Battle Previewer 2.0](https://tc70f3.csb.app/)
+- [Github](https://github.com/cssbattle/forum) - CSS Battle Forum
 - [Github](https://malcolmkiano.github.io/clip-path-generator/) - clip path generator
 - [Github](https://yqnn.github.io/svg-path-editor/) - svg path editor
 - [CSS Tricks](https://css-tricks.com/the-shapes-of-css/) - shapes of css
@@ -48,3 +50,11 @@
 - [Stack Overflow](https://stackoverflow.com/questions/26961221/how-to-make-an-oval-in-css)- oval 
 - [CSS Tricks](https://css-tricks.com/how-to-play-and-pause-css-animations-with-css-custom-properties) - play and pause css animations
 - [W3 Schools](https://www.w3schools.com/howto/howto_css_loader.asp) - css loader
+- [Stack Overflow](https://stackoverflow.com/questions/37437141/css-border-shorthand-when-each-border-has-a-different-width) - css border shorthand when each border has a different width
+- [Codepen](https://codepen.io/rhgksrua/pen/GgbLKM) - css alphabet
+- [Blog](https://kennethormandy.com/journal/pure-css-lettering-a-bad-and-fun-idea) - pure css lettering a bad and fun idea 
+- [CSS Tricks](https://css-tricks.com/building-progress-ring-quickly) - building progress ring quickly
+- [YouTube](https://www.youtube.com/watch?v=mSfsGTIQlxg) - How To Make Circular Progress Bar Using HTML CSS JavaScript | Neomorphism Progress Bar
+- [Blog](https://nikitahl.com/circle-progress-bar-css) - circle progress bar css
+- [Github](https://nikitahl.github.io/svg-circle-progress-generator) - svg circle progress generator
+- [Stack Overflow](https://stackoverflow.com/questions/13059190/html5-css3-circle-with-partial-border) - html5 css3 circle with partial border
