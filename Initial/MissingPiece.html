@@ -1,0 +1,30 @@
+<body bgcolor=D669EC>
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+  div{
+    width:75;
+    height:40;
+    background:#FDFBF8;
+    position:fixed;
+    top:50%;
+    left:50%;
+    -webkit-box-reflect:below -15px
+  }
+  div::before {
+    content:'';
+    position:relative;
+    border:39px solid transparent;
+    border-bottom:39px solid #FDFBF8;
+    top:-56px
+  }
+  [a]{
+    transform:translate(-142%,-220%) rotate(-45deg)
+  }
+  [b]{
+    transform:translate(41%,-225%) rotate(45deg)
+  }
+  [c]{
+    transform:translate(-119%,75%) rotate(45deg)
+  }
