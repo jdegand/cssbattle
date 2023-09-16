@@ -1,0 +1,39 @@
+<body bgcolor=8647E6>
+<p a></p>
+<p b></p>
+<style>
+  *{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+  }
+  [a]{
+    border-radius:50%;
+    width:200;
+    height:200;
+    background:#EFEB99;
+    transform:translate(-50%,-50%)
+  }
+  [b]{
+    width:60;
+    height:60;
+    transform:translate(-50%,-50%);
+    border:20px solid #8647E6;
+  }
+  [b]::after {
+    content:"";
+    position:absolute;
+    width:60;
+    height:60;
+    border:20px solid #8647E6;
+    transform:translate(-100%,60%);
+  }
+  [b]::before {
+    content:"";
+    position:absolute;
+    width:60;
+    height:60;
+    border:20px solid #8647E6;
+    transform:translate(60%,-100%)
+  }
