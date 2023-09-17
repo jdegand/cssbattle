@@ -1,0 +1,41 @@
+<body bgcolor=F5BE6C>
+<p>
+<style>
+    *{
+        margin:0;
+        position:fixed;
+        top:50%;
+        left:50%
+    }
+    p{
+        height:90;
+        width:130;
+        border-radius:0 0 0 280px/240px;
+        border:solid 30px #B74838;
+        border-top:none;
+        border-right:none;
+        transform:translate(-97.5%,-42%) rotate(-90deg);
+        -webkit-box-reflect: below 30px;
+    }
+    p::before {
+        content:"";
+        position:fixed;
+        background:#B74838;
+        width:30;
+        height:30;
+        border-radius:50%;
+        top:50%;
+        left:50%;
+        transform:translate(-315%,-186%);
+    }
+    p::after {
+        content:"";
+        position:fixed;
+        background:#B74838;
+        width:30;
+        height:30;
+        border-radius:50%;
+        top:50%;
+        left:50%;
+        transform:translate(185%,150%);
+    }
