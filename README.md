@@ -58,3 +58,12 @@
 - [Blog](https://nikitahl.com/circle-progress-bar-css) - circle progress bar css
 - [Github](https://nikitahl.github.io/svg-circle-progress-generator) - svg circle progress generator
 - [Stack Overflow](https://stackoverflow.com/questions/13059190/html5-css3-circle-with-partial-border) - html5 css3 circle with partial border
+- [Stack Overflow](https://stackoverflow.com/questions/17285514/is-it-possible-to-make-a-squiggly-line) - squiggly line
+- [singhak](https://singhak.in/draw-half-and-quarter-circle-with-css/#3_Quarter-Circle_with_CSS) - quarter circle with css
+- [Stack Overflow](https://stackoverflow.com/questions/50598433/create-a-two-color-circle) - create a two color circle
+- [Stack Overflow](https://stackoverflow.com/questions/20803489/draw-a-curve-with-css) - draw a curve with css
+- [Abobe](https://color.adobe.com/create/image-gradient) - image gradient
+- [Colorzilla](https://www.colorzilla.com/gradient-editor/) - gradient editor
+- [JS Fiddle](https://jsfiddle.net/joshnh/bKfKm/) - CSS alphabet
+- [Stack Overflow](https://stackoverflow.com/questions/41265044/curved-line-css-rounded-border) - curved line css rounded border
+- [Stack Overflow](https://stackoverflow.com/questions/30044372/how-can-i-make-css-curved-line) - css curved line
