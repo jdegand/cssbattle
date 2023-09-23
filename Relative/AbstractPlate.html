@@ -1,0 +1,63 @@
+<body bgcolor=4FA07B> 
+<p a></p> 
+<p b></p> 
+<div class="triangle c"></div> 
+<div class="triangle d"></div> 
+<b e> 
+<style> 
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%;
+}
+p{
+    border-radius:50%;
+}
+[a]{
+    box-shadow:0 0 0 10px #4FA07B,0 0 0 20px #0D1335, 0 0 0 30px #4FA07B, 0 0 0 40px #4FA07B, 0 0 0 50px #0D1335;
+    width:150;
+    height:150;
+    transform:translate(-50%,-50%) 
+}
+[b]{
+    width:110;
+    height:110;
+    border:10px solid #0D1335;
+    transform:translate(-50%,-50%) 
+}
+.triangle {
+    --t:9px;
+    /* Thickness */
+    --c:#FBFAE2;
+    /* Color */
+    width:200px;
+    display:inline-block;
+    border:var(--t) solid transparent;
+    border-bottom-color:var(--c);
+    background: 
+    /* Left side */
+    linear-gradient(to bottom left, transparent 49.5%,var(--c) 50% calc(50% + var(--t)), transparent calc(50% + var(--t) + 1px)) right, 
+    /* right side */
+    linear-gradient(to bottom right, transparent 49.5%,var(--c) 50% calc(50% + var(--t)), transparent calc(50% + var(--t) + 1px)) left;
+    background-size:50% 100%;
+    background-origin:border-box;
+    background-repeat:no-repeat;
+}
+.triangle:before {
+    content:"";
+    display:block;
+    padding-top:180 
+}
+.c{
+    transform:translate(-99%,-65%) rotate(-30deg) 
+}
+.d{
+    transform:translate(-1%,-65%) rotate(30deg) 
+}
+[e]{
+    width:30;
+    height:30;
+    background:#FBFAE2;
+    transform:translate(-50%,-40%) rotate(-46deg) 
+}
