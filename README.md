@@ -67,3 +67,6 @@
 - [JS Fiddle](https://jsfiddle.net/joshnh/bKfKm/) - CSS alphabet
 - [Stack Overflow](https://stackoverflow.com/questions/41265044/curved-line-css-rounded-border) - curved line css rounded border
 - [Stack Overflow](https://stackoverflow.com/questions/30044372/how-can-i-make-css-curved-line) - css curved line
+- [YouTube](https://www.youtube.com/watch?v=wEP1mUuLODQ) - Css triangle with border - Shape | web zone
+- [Dev.to](https://dev.to/alvaromontoro/drawing-a-triangle-with-css-5g31) - drawing a triangle with css
+- [Stack Overflow](https://stackoverflow.com/questions/16231184/how-to-create-a-transparent-triangle-with-border-using-css) - how to create a transparent triangle with border using css
