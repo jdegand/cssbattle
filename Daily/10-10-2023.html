@@ -2,7 +2,7 @@
 <p a>
 <p b>
 <p c>
-<P d>
+<p d>
 <style>
 *{
     margin:0;
@@ -16,24 +16,14 @@
     width:60;
     height:60;
     transform:translate(-175%,-50%);
-    box-shadow:0 0 0 30px #9CCCDB
+    box-shadow:0 0 0 30px #9CCCDB;
+    -webkit-box-reflect:right 90px
 }
-[b]{
+[a]::before{
+    content:'';
+    position:fixed;
     width:30;
     height:200;
     background:#9CCCDB;
-    transform:translate(-450%,0)
-}
-[c]{
-    border-radius:50%;
-    width:60;
-    height:60;
-    transform:translate(75%,-50%);
-    box-shadow:0 0 0 30px #9CCCDB
-}
-[d]{
-    width:30;
-    height:200;
-    background:#9CCCDB;
-    transform:translate(350%,0)
+    transform:translate(-100%,10%)
 }
