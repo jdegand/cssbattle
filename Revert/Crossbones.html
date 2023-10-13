@@ -1,8 +1,8 @@
 <body bgcolor=EFEB99>
-<p a>
-<p b>
-<p c>
-<p d>
+<p a class="a">
+<p b class="a">
+<p c class="a">
+<p d class="a">
 <style>
 *{
     margin:0;
@@ -10,13 +10,15 @@
     left:50%;
     position:fixed
 }
-[a]{
+p{
     width:30;
     height:190;
-    background:#8647E6;
+    background:#8647E6
+}
+[a]{
     transform:translate(-50%,-50%) rotate(45deg)
 }
-[a]::before {
+.a::before {
     content:'';
     position:absolute;
     background:#8647E6;
@@ -25,7 +27,7 @@
     border-radius:50%;
     transform:translate(-50%,-50%)
 }
-[a]::after {
+.a::after {
     content:'';
     position:absolute;
     background:#8647E6;
@@ -35,74 +37,11 @@
     transform:translate(50%,-50%)
 }
 [b]{
-    width:30;
-    height:190;
-    background:#8647E6;
     transform:translate(-50%,-50%) rotate(-45deg)
 }
-[b]::before {
-    content:'';
-    position:absolute;
-    background:#8647E6;
-    width:30;
-    height:30;
-    border-radius:50%;
-    transform:translate(-50%,-50%)
-}
-[b]::after {
-    content:'';
-    position:absolute;
-    background:#8647E6;
-    width:30;
-    height:30;
-    border-radius:50%;
-    transform:translate(50%,-50%)
-}
 [c]{
-    width:30;
-    height:190;
-    background:#8647E6;
     transform:translate(-50%,-50%) rotate(135deg)
 }
-[c]::before {
-    content:'';
-    position:absolute;
-    background:#8647E6;
-    width:30;
-    height:30;
-    border-radius:50%;
-    transform:translate(-50%,-50%)
-}
-[c]::after {
-    content:'';
-    position:absolute;
-    background:#8647E6;
-    width:30;
-    height:30;
-    border-radius:50%;
-    transform:translate(50%,-50%)
-}
 [d]{
-    width:30;
-    height:190;
-    background:#8647E6;
     transform:translate(-50%,-50%) rotate(225deg)
-}
-[d]::before {
-    content:'';
-    position:absolute;
-    background:#8647E6;
-    width:30;
-    height:30;
-    border-radius:50%;
-    transform:translate(-50%,-50%)
-}
-[d]::after {
-    content:'';
-    position:absolute;
-    background:#8647E6;
-    width:30;
-    height:30;
-    border-radius:50%;
-    transform:translate(50%,-50%)
 }
