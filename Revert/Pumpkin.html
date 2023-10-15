@@ -1,3 +1,7 @@
+<!-- 
+    This used box-shadow similar to how you can make a moon shape 
+    Don't think it's easy to get 100% with this strategy
+-->
 <body bgcolor=784972>
 <p a>
 <p b class="b">
@@ -44,4 +48,56 @@
     background:#F7FFCF;
     border-radius:20px;
     transform:translate(-50%,-100%)
+}
+</style>
+
+<!-- 100% -->
+
+<body bgcolor=784972>
+<p a x>
+<p b x>
+<p c x>
+<p d x>
+<p e x>
+<p f>
+<style>
+*{
+    margin:0;
+    top:50%;
+    left:50%;
+    position:fixed;
+    box-sizing:border-box
+}
+[x]{
+    width:170;
+    height:120;
+    background:#F7FFCF;
+    border-radius:50%;
+    z-index:1;
+    border:10px solid #784972
+}
+[a]{
+    transform:translate(-96.9%,-29.7%) rotate(90deg)
+}
+[b]{
+    transform:translate(-73.5%,-29.7%) rotate(90deg)
+}
+[c]{
+    transform:translate(-50%,-29.7%) rotate(90deg);
+    z-index:4
+}
+[d]{
+    transform:translate(-26.5%,-29.7%) rotate(90deg);
+    z-index:3
+}
+[e]{
+    transform:translate(-3%,-29.7%) rotate(90deg)
+}
+[f]{
+    width:22;
+    height:100;
+    background:#F7FFCF;
+    border-radius:20px;
+    transform:translate(-50%,-100%);
+    z-index:5
 }
