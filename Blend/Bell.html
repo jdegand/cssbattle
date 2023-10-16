@@ -1,40 +1,32 @@
+<body bgcolor=191919>
 <div></div>
-<p a></p>
-<p b></p>
+<p a>
+<p b>
 <style>
-  * {
-	padding:0;
-    margin:0;
-    background:#191919;
-  }
-  
-  div {
-     height:120px;
-     width:120px;
-     border-radius: 0 0 90px 90px;
-    background:#E08027;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%) rotate(180deg);
-    z-index: 5;
-  }
-
-  [a] {
-    background:#824B20;
-    width:55px;
-    height:55px;
-    border-radius:55px;
-    position:absolute;
-    top:60%;
-    left:44%;
-  }
-    [b] {
-    background:#F2AD43;
-    width:50px;
-    height:50px;
-    border-radius:50px;
-    position:absolute;
-    top:20%;
-    left:44%;
-  }
+*{
+  margin:0;
+  top:50%;
+  left:50%;
+  position:fixed
+}
+div{
+  height:120;
+  width:120;
+  border-radius:15px 15px 90px 90px;
+  background:#E08027;
+  transform:translate(-50%,-50%)rotate(180deg);
+  z-index:5
+}
+p{
+  background:#824B20;
+  width:50;
+  height:50;
+  border-radius:50px
+}
+[a]{
+  transform:translate(-50%,70%)
+}
+[b]{
+  background:#F2AD43;
+  transform:translate(-50%,-168%)
+}
