@@ -1,23 +1,27 @@
-<div></div>
+<body bgcolor=F0CD48>
+<div>
+<p a>
+<p b>
 <style>
 *{
-    margin:0
-}
-body{
-    background:repeating-linear-gradient(
-    45deg,
-    #F0CD48 0,
-    #F0CD48 98px,
-    #D86F45 98px,
-    #D86F45 199px
-  );
-}
-div{
-    width:100;
-    height:100;
-    background:#5F3829;
+    margin:0;
     position:fixed;
     top:50%;
-    left:50%;
-    transform:translate(-50%,-50%)rotate(45deg)
+    left:50%
+}
+[a]{
+    background:#5F3829;
+    width:100;
+    height:100;
+    transform:translate(-50%,-50%)
+}
+[b]{
+    width:100;
+    height:600px;
+    background:#D86F45;
+    transform:translate(-150%,-50%);
+    -webkit-box-reflect:right 100px
+}
+div{
+    transform:rotate(-45deg)
 }
