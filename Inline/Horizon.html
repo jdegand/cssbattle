@@ -1,10 +1,14 @@
-<p a>
-<p b>
-<p c>
-<p d>
+<!--https://dev.to/snkds/how-to-create-striped-backgrounds-with-css-5dfn-->
 <style>
-*{margin: 0;padding: 0;width: 100%}
-[a] {height:50;background:#F7EC7D}
-[b]{height:50;background:#E38F66}
-[c]{height: 100;background:#AA445F}
-[d]{height: 100;background: #62306D}
+*>*{
+    background:linear-gradient(to bottom,
+    #F7EC7D 0,
+    #F7EC7D 50px,
+    #E38F66 50px,
+    #E38F66 100px,
+    #AA445F 100px,
+    #AA445F 200px,
+    #62306D 200px,
+    #62306D 400px
+    )
+}
