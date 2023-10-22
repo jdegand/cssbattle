@@ -1,0 +1,32 @@
+<body bgcolor=5E2D8C>
+<p a>
+<p b> 
+<style>
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+}
+[a]{
+    width:260;
+    height:180;
+    background:#42A5F5;
+    transform:translate(-50%,-50%)
+}
+[b]{
+    width:60;
+    height:200;
+    border:30px solid #5E2D8C;
+    border-width:0 30px 0 30px;
+    transform:translate(-50%,-50%)rotate(90deg)
+}   
+[b]::before {
+    content:"";
+    position:fixed;
+    width:80;
+    height:30;
+    left:0;
+    top:85;
+    background:#5E2D8C
+}
