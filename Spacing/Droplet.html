@@ -1,75 +1,46 @@
-<p a></p>
-<p b></p>
-<p c></p>
+<p a>
+<p b>
+<p c>
 <style>
-  * {
-    margin: 0;
-    position:fixed;
-    background:#F2E09F;
-  }
-  [a]{
-	width: 200px;
-    height: 150px;
-    background: #F2E09F;
-	border-radius: 0% 0% 59% 0%;
-   	top: 0;
-    right: 20;
-    z-index:2;
-  }
-   [a]::before {
-    content: '';
-    background:#F2E09F;
-    position:absolute;
-    right:-5;
-    top:60;
-    width: 0;
-    height: 0;
-    border-bottom: 50px solid #C36271;
-    border-left: 25px solid transparent;
-  }
-  [a]::after {
-    content: '';
-    width: 25;
-    height:110;
-    background:#C36271;
-    position:absolute;
-    right:-25px;
-  }
-  [b]{
-    width: 380px;
-    height: 190px;
-    background: #C36271;
-	border-radius: 70% 0% 0% 0%;
-    bottom: 0;
-    right: 0;
-    z-index:1;
-  }
-  [c] {
-    border-radius:50%;
-    width: 100;
-    height:100;
-    background:#F2E09F;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:2;
-  }
-  [c]::before {
-    content: '';
-    width: 100;
-    height:45;
-    background:#F2E09F;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-140%,-100%);
-  }
-  [c]::after {
-    content: '';
-    width: 100;
-    height:50;
-    background:#C36271;
-    position:absolute;
-    border-radius: 100px 100px 0 0;
-  }
-</style>
+body{
+  background:linear-gradient(
+    to right,
+    #F2E09F 0,
+    #F2E09F 50%,
+    #C36271 50%,
+    #C36271 100%
+  );
+}
+p{
+  margin:0;
+  top:50%;
+  left:50%;
+  position:fixed
+}
+[a]{
+  width:200;
+  height:200;
+  background:#C36271;
+  border-radius:100px 0;
+  transform:translate(-90%,0)
+}
+[b]{
+  width:200;
+  height:200;
+  background:#F2E09F;
+  border-radius:100px 0;
+  transform:translate(-10%,-100%)
+}
+[c]{
+  width:100;
+  height:100;
+  background:linear-gradient(
+    to top,
+    #F2E09F 0,
+    #F2E09F 50%,
+    #C36271 50%,
+    #C36271 100%
+  );
+  border-radius:50%;
+  transform:translate(-50%,-50%)
+}
