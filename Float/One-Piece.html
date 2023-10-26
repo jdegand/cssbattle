@@ -1,156 +1,89 @@
-<!--https://www.w3schools.com/howto/howto_css_pill_button.asp-->
-
-<div></div>
+<body bgcolor=000>
 <p a>
 <p b>
 <p c>
-<!-- bone -->  
 <p d>
-<p e>
-<p f>
-<!-- bone -->  
-<p g>
-<p h>
-<p i>
-<!-- bone -->  
-<p j>
-<p k>
-<p l>
-<!-- bone -->  
-<p m>
-<p n>
-<p o>
-<!-- eyes -->
-<p s>
-<p t>
+<div></div>
+<b e></b>
+<b f></b>
+<b g></b>
+<x h></x>
+<x i></x>
 <style>
-  * {
-    background:#000000;
-    margin:0;
-    padding:0;
-    position:absolute;
-    top:50%;
-    left:50%;
-  }
-  
-  div {
-    background:#fff;
-    width:110px;
-    height:80px;
-  	padding: 10px 20px;
-  	border-radius: 50px;
-    transform:translate(-50%,-40%);
-  }
-  [a]{
-    width:15;
-    height:20;
-    background:#fff;
-    z-index:9;
-    transform:translate(-50%,350%)
-  }
-    [b]{
-    width:15;
-    height:20;
-    background:#fff;
-    z-index:9;
-    transform:translate(85%,350%)
-  }
-    [c]{
-    width:15;
-    height:20;
-    background:#fff;
-    z-index:9;
-    transform:translate(-180%,350%)
-  }
-  [d]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(-380%,240%)
-  }
-    [e]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(-430%,200%)
-  }
-   [f]{
-    width:20;
-    height:20;
-    background:#fff;
-    transform:translate(-440%,225%) rotate(-45deg)
-  }
-    [g]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(300%,200%)
-  }
-    [h]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(250%,240%)
-  }
-   [i]{
-    width:20;
-    height:20;
-    background:#fff;
-    transform:translate(310%,250%) rotate(-45deg)
-  }
-   [j]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(310%,-220%)
-  }
-    [k]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(280%,-260%)
-  }
-   [l]{
-    width:20;
-    height:20;
-    background:#fff;
-    transform:translate(340%,-250%) rotate(-45deg)
-  }
-     [m]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(-370%,-270%)
-  }
-    [n]{
-    width:25;
-    height:25;
-    border-radius:50%;
-    background:#fff;
-    transform:translate(-420%,-240%)
-  }
-   [o]{
-    width:20;
-    height:20;
-    background:#fff;
-    transform:translate(-450%,-260%) rotate(-45deg)
-  }
-  [s]{
-    width:45;
-    height:45;
-    border-radius:20px 40px;
-    transform:translate(20%,-30%) rotate(-5deg)
-  }
-   [t]{
-    width:45;
-    height:45;
-    border-radius:20px 40px;
-    transform:translate(-110%,-30%) rotate(90deg)
-  }
+*{
+  margin:0;
+  top:50%;
+  left:50%;
+  position:fixed
+}
+p{
+  width:15;
+  height:20;
+  background:#fff
+}
+p::before{
+  content:'';
+  position:fixed;
+  background:#fff;
+  width:25;
+  height:25;
+  border-radius:50%;
+  transform:translate(-90%,-40%)
+}
+p::after{
+  content:'';
+  position:fixed;
+  background:#fff;
+  width:25;
+  height:25;
+  border-radius:50%;
+  transform:translate(-90%,20%)
+}
+[a]{
+  transform:translate(-550%,-225%) rotate(45deg)
+}
+[b]{
+  transform:translate(450%,-225%) rotate(135deg)
+}
+[c]{
+  transform:translate(450%,225%) rotate(-135deg)
+}
+[d]{
+  transform:translate(-550%,225%) rotate(-45deg)
+}
+div{
+  background:#fff;
+  width:110;
+  height:80;
+  padding:10px 20px;
+  border-radius:50px;
+  transform:translate(-50%,-40%)
+}
+b{
+  width:15;
+  height:20;
+  background:#fff
+}
+[e]{
+  transform:translate(-180%,349%)
+}
+[f]{
+  transform:translate(-46%,349%)
+}
+[g]{
+  transform:translate(86%,349%)
+}
+[h]{
+  width:45;
+  height:45;
+  background:#000;
+  border-radius:20px 40px;
+  transform:translate(17.5%,-28%) rotate(-14deg)
+}
+[i]{
+  width:45;
+  height:45;
+  background:#000;
+  border-radius:20px 40px;
+  transform:translate(-117%,-28%) rotate(100deg)
+}
