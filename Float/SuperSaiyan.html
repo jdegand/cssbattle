@@ -1,66 +1,72 @@
-<p l>
-<p r>
-<p lf>
-<p rf>
-<p hl>
-<p hc>
-<p hr>
-<p m>
+<body bgcolor=161616>
+<p a>
+<p b>
+<p c>
+<p d>
+<p e>
+<p f>
+<p g>
 <style>
-    *{
-        background:#161616;
-        margin:0;
-        padding:0;
-        position:fixed;
-        top:50%;
-        left:50%;
+*{
+    margin:0;
+    top:50%;
+    left:50%;
+    position:fixed
+}
+[a]{
+    height:30;
+    width:50;
+    border-radius:0 0 30px 30px;
+    background:#EBAE11;
+    transform:translate(-121%,25%) rotate(11deg)
+}
+[b]{
+    height:30;
+    width:50;
+    border-radius:0 0 30px 30px;
+    background:#EBAE11;
+    transform:translate(20%,25%) rotate(-11deg)
+}
+[c]{
+    height:30;
+    width:60;
+    border-radius:0 0 30px 30px;
+    background:#EBAE11;
+    transform:translate(-2%,-57.5%) rotate(-64deg);
+    z-index:2
+}
+[d]{
+    height:30;
+    width:60;
+    border-radius:30px 30px 0 0;
+    background:#EBAE11;
+    transform:translate(-97.5%,-55%) rotate(-120deg);
+    z-index:2
+}
+[e]{
+    height:60;
+    width:60;
+    border-radius:100% 0;
+    background:#EBAE11;
+    transform:translate(-50%,-90%) rotate(-45deg);
+    z-index:2
+}
+[f]{
+    width:80;
+    height:75;
+    border-radius:0 0 50% 50%;
+    transform:translate(-50%,-12%);
+    background:linear-gradient(to right,
+        #FFF 0,
+        #FFF 40px,
+        #FFDEB9 40px,
+        #FFDEB9 80px
+        );
     }
-    p{
-        height:25px;
-        width:50px;
-        border-radius: 0 0 90px 90px;
-        background:#EBAE11;
-    }
-    [l]{
-        transform:translate(-145%,40%) rotate(30deg);
-    }
-    [r]{
-        transform:translate(35%,40%) rotate(-30deg);
-    }
-    [lf]{
-        width:50; 
-        height:60; 
-        background: #fff;
-        border-radius: 0 0 0 90px;
-        transform:translate(-100%,10%);
-    }
-    [rf]{
-        width:50px; 
-        height:60px; 
-        background: #FFDEB9;
-        border-radius: 0 0 90px 0;
-        transform:translate(-10%,10%);
-    }
-    [hl]{
-        height:40px;
-        width:60px;
-        transform:translate(-110%,-60%) rotate(60deg);
-    }
-    [hr]{
-        height:40px;
-        width:60px;
-        transform:translate(0%,-60%) rotate(-60deg);
-    }
-    [hc]{
-        height:80px;
-        width:35px;
-        transform:translate(-60%,-80%) rotate(180deg);
-        background:#EBAE11;
-        border-radius:50%;
-    }
-    [m]{
-        width:20;
-        height:10;
-        background:#000;
-        transform:translate(-60%,450%)
-    }
+[g]{
+    width:20;
+    height:10;
+    background:#000;
+    transform:translate(-50%,455%);
+    border-radius:0 0 20px 20px
+}
