@@ -1,0 +1,55 @@
+<body bgcolor=F58220>
+<p a>
+<p b>
+<p c>
+<p d>
+<style>
+*{
+    margin:0;
+    top:50%;
+    left:50%;
+    position:fixed
+}
+[a]{
+    width:280;
+    height:180;
+    background:#fff;
+    border-radius:100px;
+    transform:translate(-50%,-50%)
+}
+[b]{
+    width:220;
+    height:120;
+    background:#F58220;
+    border-radius:100px;
+    transform:translate(-50%,-50%)
+}
+[c]{
+    width:160;
+    height:60;
+    background:#fff;
+    border-radius:100px;
+    transform:translate(-50%,-50%)
+}
+[d]{
+    width:30;
+    height:120;
+    background:#fff;
+    transform:translate(-50%,-50%)
+}
+[d]::before{
+    content:"";
+    position:fixed;
+    background:#F58220;
+    width:30;
+    height:31;
+    transform:translate(0,-100%)
+}
+[d]::after{
+    content:"";
+    position:fixed;
+    background:#F58220;
+    width:30;
+    height:31;
+    transform:translate(0,386%)
+}
