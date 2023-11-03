@@ -1,0 +1,54 @@
+<body bgcolor=CBE8DD>
+<p a>
+<p b>
+<p c l>
+<p d l>
+<p e l>
+<p f l>
+<p g l>
+<style>
+*{
+    margin:0;
+    top:50%;
+    left:50%;
+    position:fixed;
+    box-sizing:border-box
+}
+[a]{
+    width:180;
+    height:100;
+    background:#007192;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    outline:10px solid #CBE8DD;
+    z-index:2
+    /* border-radius won't work with border */
+}
+[b]{
+    border-left:40px solid transparent;
+    border-right:40px solid transparent;
+    border-bottom:40px solid #007192;
+    transform:translate(-188%,-50%) rotate(90deg);
+    -webkit-box-reflect:above 180px
+}
+[l]{
+    width:10;
+    height:100;
+    background:#CBE8DD;
+    z-index:2
+}
+[c]{
+    transform:translate(-50%,-50%) skew(-20deg)
+}
+[d]{
+    transform:translate(-450%,-50%) skew(-20deg)
+}
+[e]{
+    transform:translate(-250%,-50%) skew(-20deg)
+}
+[f]{
+    transform:translate(150%,-50%) skew(-20deg)
+}
+[g]{
+    transform:translate(350%,-50%) skew(-20deg)
+}
