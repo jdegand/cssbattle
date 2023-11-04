@@ -1,44 +1,39 @@
-<p a></p>
-<p b></p>
+<body bgcolor=19191A>
+<p a>
+<p b>
 <style>
   * {
-    padding:0;
     margin:0;
-    background:#19191A;
     position:fixed;
     top:50%;
     left:50%;
-    transform:translate(-50%,-66%);
+    transform:translate(-50%,-66.6%)
   }
-  
-  [a] {
+  [a]{
     background:#4F77FF;
-    width:150px;
-    height:150px;
-    border-radius:150px;
+    width:150;
+    height:150;
+    border-radius:150px
   }
   [b]{
     background:#F9E492;
-    width:75px;
-    height:125px;
-    transform:translate(-100%,-20%);
+    width:75;
+    height:125;
+    transform:translate(-100%,-20%)
   }
   [b]::after {
     content:"";
     background:#9AD5FF;
-    width:75px;
-    height:69px;
-    z-index:100;
-    border-radius:  0 75px 0 0;
-    position:absolute;
-    transform:translate(0%,10%) rotate(180deg);
+    width:75;
+    height:75;
+    border-radius:0 75px 0 0;
+    position:fixed;
+    transform:rotate(180deg)
   }
-    [b]::before {
+  [b]::before {
     content:"";
     background:#9AD5FF;
-    width:75px;
-    height:11px;
-    z-index:100;
-    position:absolute;
-    transform:translate(0%,0%);
+    width:75;
+    height:11;
+    position:fixed;
   }
