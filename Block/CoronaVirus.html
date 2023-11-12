@@ -3,17 +3,15 @@
 <p b>
 <p c>
 <p d>
-<p e>
-<p f>
-<p g>
-<p h>
+<p e w>
+<p f w>
+<p g x>
+<p h x>
 <style>
-  *{
-    margin:0;
-  }
   p{
+    margin:0;
     background:#F3AC3C;
-    position:absolute;
+    position:fixed;
     top:50%;
     left:50%;
     border-radius:50%
@@ -21,7 +19,7 @@
   [a]{
     transform:translate(-50%,-50%);
     width:100;
-    height:100;
+    height:100
   }
   [b]{
     transform:translate(200%,-300%);
@@ -30,7 +28,7 @@
     background:#998235
   }
   [c]{
-    transform:translate(-50%,70%);
+    transform:translate(-50%,72.5%);
     width:20;
     height:20;
     background:#998235;
@@ -45,24 +43,23 @@
   }
   [e]{
     transform:translate(-50%,-100%);
-    height:100;
-    width:10;
-    border-radius:10px
+    height:100
   }
   [f]{
     transform:translate(-50%,60%);
-    height:50;
+    height:50
+  }
+  [g]{
+    transform:translate(-45%,0)rotate(30deg)
+  }
+  [h]{
+    transform:translate(-45%,-100.5%)rotate(-30deg)
+  }
+  [w]{
     width:10;
     border-radius:10px
   }
-  [g]{
-    transform:translate(-45%,0%) rotate(30deg);
-    height:10;
-    width:180;
-    border-radius:10px
-  }
-  [h]{
-    transform:translate(-45%,-100%) rotate(-30deg);
+  [x]{
     height:10;
     width:180;
     border-radius:10px
