@@ -1,57 +1,50 @@
+<body bgcolor=D25B70>
 <div></div>
-<p a></p>
-<p b></p>
-<p c></p>
-<p d></p>
-<p e></p>
+<p a>
+<p b>
+<p c>
+<p d>
+<p e>
 <style>
-  * {
-    padding:0;
-    margin:0;
-    background:#D25B70;
-    position:fixed;
-  }
-  div {
-    width:200;
-    height:200;
-	top:50%;
-    left:50%;
-    border-radius:50%;
-    background:#F6DF96;
-    transform:translate(-50%,-50%);
-    z-index:2;
-  }
-  p {
-     background:#6CB3A9;
-     height:15;
-     width:200;
-  }
-  [a]{
-    width:100%;
-    height:150;
-    bottom:0;
-  }
-    [b]{
-    top: 50%;
-    left:50%;
-    transform:translate(-50%, 0%);
-     z-index: 3;
-  }
-    [c]{
-    top: 50%;
-    left:50%;
-    transform:translate(-50%, 165%);
-    z-index: 3;
-  }
-    [d]{
-    top: 50%;
-    left:50%;
-    transform:translate(-50%, 330%);
-    z-index: 3;
-  }
-    [e]{
-    top: 50%;
-    left:50%;
-    transform:translate(-50%, 500%);
-    z-index: 3;
-  }
+*{
+  margin:0;
+  position:fixed
+}
+div{
+  width:200;
+  height:200;
+  top:50%;
+  left:50%;
+  border-radius:50%;
+  background:#F6DF96;
+  transform:translate(-50%,-50%);
+  z-index:2
+}
+p{
+  background:#6CB3A9;
+  height:15;
+  width:200;
+  top:50%;
+  left:50%;
+  z-index:3
+}
+[a]{
+  width:100%;
+  height:150;
+  bottom:0;
+  top:initial;
+  left:initial;
+  z-index:-1
+}
+[b]{
+  transform:translate(-50%)
+}
+[c]{
+  transform:translate(-50%,165%)
+}
+[d]{
+  transform:translate(-50%,330%)
+}
+[e]{
+  transform:translate(-50%,500%)
+}
