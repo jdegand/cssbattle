@@ -1,56 +1,48 @@
-<p a>
-<p b>
+<body bgcolor=AC474B>
+<p a x>
+<p b x>
 <div>
 <p>
 <p>
 <p>
 <p>
-</div>
 <style>
-    *{
-      background:#AC474B;
-      margin:0
-    }
-    div{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:20px;
-      width:100;
-      position:absolute;
-      top:50%;
-      left:50%;
-      transform:translate(-70%,-29%)
-    }
-    p{
-      width:60;
-      height:60;
-      background:#fff
-    }
-    [a]{
-      background:inherit;
-      transform:rotate(90deg);
-      border:10px solid #fff;
-      width:20;
-      height:20;
-      border-top-left-radius:50%;
-      border-bottom-left-radius:50%;
-      border-bottom-right-radius:50%;
-      position:absolute;
-      top:17%;
-      left:41%;
-      translate:transform(-50%,-50%)
-    }
-    [b]{
-      background:inherit;
-      transform:rotate(-180deg);
-      border:10px solid #fff;
-      width:20;
-      height:20;
-      border-top-left-radius:50%;
-      border-bottom-left-radius:50%;
-      border-bottom-right-radius:50%;
-      position:absolute;
-      top:17%;
-      left:49%;
-      translate:transform(-50%,-50%)
-    }
+*{
+  margin:0
+}
+div{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  position:fixed;
+  top:50%;
+  left:50%;
+  gap:20px;
+  width:100;
+  transform:translate(-70%,-28.7%)
+}
+p{
+  width:60;
+  height:60;
+  background:#fff
+}
+[x]{
+  background:inherit;
+  border:10px solid #fff;
+  width:20;
+  height:20;
+  border-top-left-radius:50%;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:50%;
+  position:fixed;
+  translate:transform(-50%,-50%)
+}
+[a]{
+  transform:rotate(90deg);
+  top:16.5%;
+  left:41.3%
+}
+[b]{
+  transform:rotate(-180deg);
+  top:16.5%;
+  left:48.7%
+}
