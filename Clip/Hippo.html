@@ -1,80 +1,71 @@
-<p a></p>
-<p b></p>
-<p l></p>
-<p r></p>
-<p n></p>
-<p m></p>
-<p e></p>
-<p f></p>
+<p a>
+<p b>
+<p l x>
+<p r x>
+<p n y>
+<p m y>
+<p e z>
+<p f z>
 <style>
-  * {
-    margin:0;
-    padding:0;
-    background: #191919;
-    position:absolute;
-    top:50%;
-    left:50%;
-  }
-  [a]{
-    background:#FE5F55;
-    width:125px;
-    height:130px;
-    border-radius: 125px 0 0 125px;
-    transform:translate(-50%,-60%) rotate(90deg);
-    z-index:1;
-  }
-    [b]{
-    background:#A64942;
-    width:150px;
-    height:100px;
-    border-radius: 100px;
-    transform:translate(-50%,-5%);
-      z-index:2;
-  }
-    [l]{
-    background:#000000;
-    width:10px;
-    height:10px;
-    border-radius:50%;
-    transform:translate(-400%,-250%);
-      z-index:2;
-  }
-    [r]{
-    background:#000000;
-    width:10px;
-    height:10px;
-    border-radius:50%;
-    transform:translate(300%,-250%);
-    z-index:2;
-  }
-    [n]{
-    background:#000000;
-    width:20px;
-    height:30px;
-    border-radius:50%;
-    transform:translate(-250%,50%) rotate(45deg);
-    z-index:2;
-  }
-   [m]{
-    background:#000000;
-    width:20px;
-    height:30px;
-    border-radius:50%;
-    transform:translate(150%,50%) rotate(135deg);
-    z-index:2;
-  }
-  
-  [e]{
-    border: 5px solid #FE5F55;
-    width:20px;
-    height:10px;
-    border-radius:50%;
-    transform:translate(-175%, -375%) rotate(45deg);
-  }
-    [f]{
-    border: 5px solid #FE5F55;
-    width:20px;
-    height:10px;
-    border-radius:50%;
-    transform:translate(75%, -375%) rotate(135deg);
-  }
+*{
+  margin:0;
+  background:#191919;
+  position:fixed;
+  top:50%;
+  left:50%
+}
+[z]{
+  border:5px solid #FE5F55;
+  width:20;
+  height:10;
+  background:#000;
+  border-radius:50%
+}
+[x]{
+  background:#000;
+  width:10;
+  height:10;
+  border-radius:50%;
+  z-index:2
+}
+[y]{
+  background:#000;
+  width:20;
+  height:30;
+  border-radius:50%;
+  z-index:2
+}
+[a]{
+  background:#FE5F55;
+  width:115;
+  height:130;
+  border-radius:60px 0 0 60px;
+  transform:translate(-50%,-63.5%) rotate(90deg);
+  z-index:1
+}
+[b]{
+  background:#A64942;
+  width:150;
+  height:100;
+  border-radius:120px 120px 100px 100px;
+  transform:translate(-50%,-5%);
+  z-index:2
+}
+[l]{
+  transform:translate(-400%,-250%)
+}
+[r]{
+  transform:translate(300%,-250%)
+}
+[n]{
+  transform:translate(-250%,50%)rotate(45deg)
+}
+[m]{
+  transform:translate(150%,50%)rotate(135deg)
+}
+[e]{
+  transform:translate(-185%,-375%)rotate(45deg)
+}
+[f]{
+  transform:translate(85%,-375%)rotate(135deg)
+}
