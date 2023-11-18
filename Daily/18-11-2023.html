@@ -1,9 +1,11 @@
 <body bgcolor=C6DD7F>
-<p a>
-<p b>
-<p c>
-<p d>
-<p z>
+<div>
+    <p a>
+    <p b>
+    <p c>
+    <p d>
+</div>
+<b e>
 <style>
 *{
     margin:0;
@@ -11,27 +13,34 @@
     top:50%;
     left:50%
 }
+div{
+    width:200;
+    height:200;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    overflow:hidden
+}
 p{
-    width:90;
+    width:145;
     height:90;
     background-color:#486841;
-    border-radius:100% 0
+    border-radius:100% 
 }
 [a]{
-    transform:translate(-133%,-50%) rotate(-45deg)
+    transform:translate(-50%,55.3%)
 }
 [b]{
-    transform:translate(33%,-50%) rotate(-45deg)
+    transform:translate(-50%,-156%)
 }
 [c]{
-    transform:translate(-50%,-135%) rotate(45deg)
+    transform:translate(-116%,-50%) rotate(90deg)
 }
 [d]{
-    transform:translate(-50%,33%) rotate(45deg)
+    transform:translate(16%,-50%) rotate(90deg)
 }
-[z]{
+[e]{
     width:50;
     height:50;
-    border-radius:0;
+    background:#486841;
     transform:translate(-50%,-50%)
 }
