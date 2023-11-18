@@ -1,58 +1,71 @@
-<!--https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-another-using-css-->
-
-<div></div>
-<p a>
-<p b>
-<p z>
-<p y>
-<p s>
+<body bgcolor=293462>
+<b a></b>
+<b b></b>
+<b c></b>
+<div>
+  <p z>
+  <p y>
+</div>
+<b d></b>
 <style>
-  * { 
-    padding:0;
-    margin:0;
-    background:#293462;
-    position:fixed;
-    top:50%;
-    left:50%;
-  }
-  div {
-    background:#FE5F55;
-    border-radius:40px;
-    width:150;
-    height:100;
-    transform:translate(-50%,-40%);
-  }
-  [a]{
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 10px #FFF1C1, 0px 0px 0px 20px #FE5F55;
-    width: 10px;
-    height:10px;
-    transform:translate(-400%,-470%)
-  }
-  [b]{
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 10px #FFF1C1, 0px 0px 0px 20px #FE5F55;
-    width: 10px;
-    height:10px;
-    transform:translate(350%,-470%)
-  }
-  [z]{
-    width:10;
-    height:10;
-    border-radius:50%;
-    transform:translate(25%,100%)
-  }
-   [y]{
-    width:10;
-    height:10;
-    border-radius:50%;
-    transform:translate(-150%,100%)
-  }
-  [s]{
-    width:150;
-    height:40;
-    background:#A64942;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    transform:translate(-50%,50%);
-  }
+*{
+  margin:0;
+  top:50%;
+  left:50%;
+  position:fixed
+}
+div{
+  z-index:-1;
+  width:150;
+  height:100;
+  transform:translate(-50%,-40%);
+  overflow:hidden;
+  border-radius:60px
+}
+[y]{
+  width:190;
+  height:110;
+  background:#FE5F55;
+  border-radius:110px;
+  transform:translate(-50%,-85%)
+}    
+[z]{
+  width:150;
+  height:100;
+  background:#A64942;
+  border-radius:50px;
+  transform:translate(-50%,-50%)
+}
+[a]{
+  width:50;
+  height:50;
+  background:#FE5F55;
+  border-radius:50%;
+  transform:translate(-120%,-130%);
+  -webkit-box-reflect:right 20px
+}
+[b]{
+  width:30;
+  height:30;
+  background:#FFF1C1;
+  border-radius:50%;
+  transform:translate(-167%,-184%);
+  -webkit-box-reflect:right 40px
+}
+[c]{
+  width:10;
+  height:10;
+  background:#293462;
+  border-radius:50%;
+  z-index:2;
+  transform:translate(-400%,-450%);
+  -webkit-box-reflect:right 60px
+}
+[d]{
+  width:10;
+  height:10;
+  background:#293462;
+  border-radius:50%;
+  transform:translate(-150%,100%);
+  -webkit-box-reflect:right 10px
+}
