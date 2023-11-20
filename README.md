@@ -70,3 +70,6 @@
 - [YouTube](https://www.youtube.com/watch?v=wEP1mUuLODQ) - Css triangle with border - Shape | web zone
 - [Dev.to](https://dev.to/alvaromontoro/drawing-a-triangle-with-css-5g31) - drawing a triangle with css
 - [Stack Overflow](https://stackoverflow.com/questions/16231184/how-to-create-a-transparent-triangle-with-border-using-css) - how to create a transparent triangle with border using css
+- [Stack Overflow](https://stackoverflow.com/questions/62759278/element-with-border-radius-inside-element-with-border-radius-is-not-consistent) - element with border radius inside element with border radius is not consistent
+- [Stack Overflow](https://stackoverflow.com/questions/18012420/draw-diagonal-lines-in-div-background-with-css) - draw diagonal lines in div background with css
+- [Medium](https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d) - html css how to split a background into 2 colors
