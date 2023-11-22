@@ -1,0 +1,34 @@
+<body bgcolor=602054>
+<p a>
+<p b>
+<b c>
+<style>
+:root{
+    --x:#ECDFEA;
+    --y:#602054;
+}
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+}
+p{
+    border:20px solid var(--x);
+    transform:translate(-50%,-50%)
+}
+[a]{
+    width:240;
+    height:140;
+}
+[b]{
+    width:160;
+    height:60;
+}
+[c]{
+    width:20;
+    height:20;
+    background:var(--x);
+    transform:translate(-50%,-350%);
+    box-shadow:0 120px var(--x),-20px 140px var(--y),20px 140px var(--y),20px -20px var(--y),-20px -20px var(--y),110px 60px var(--x),130px 40px var(--y),130px 80px var(--y),-110px 60px var(--x),-130px 40px var(--y),-130px 80px var(--y)
+}
