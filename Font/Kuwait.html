@@ -1,23 +1,28 @@
-<p>
+<body bgcolor=000>
+<p a>
+<p b></p>
+<b c>
 <style>
-body{
-    background:linear-gradient(
-    to bottom,
-    #13AA4B 0,
-    #13AA4B 33.3%,
-    #FFF 33.3%,
-    #FFF 66.6%,
-    #EC1E25 66.6%
-    )
-}
-p{
-    margin:0;
-    border-bottom:140px solid #000;
-    border-left:117px solid transparent;
-    border-right:117px solid transparent;
-    width:100;
+*{
     position:fixed;
     top:50%;
-    left:50%;
-    transform:translate(-95%,-50%) rotate(90deg)
+    left:50%
+}
+p{
+    width:450;
+    height:125;
+    background:#EC1E25
+}
+[a]{
+    transform:translate(-34.5%,27%)skew(-50deg)
+}
+[b]{
+    background:#13AA4B;
+    transform:translate(-34%,-152%)skew(50deg)
+}
+[c]{
+    width:400;
+    height:100;
+    background:#fff;
+    transform:translate(-20%,-50%)
 }
