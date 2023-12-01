@@ -1,0 +1,42 @@
+<body bgcolor=486841>
+<p a>
+<p b>
+<style>
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+}
+p{
+    width:200;
+    height:160
+}
+[a]{
+    background:#6FB440;
+    transform:translate(-130%,-50%)
+}
+[a]:before{
+    content:"";
+    position:fixed;
+    border-top:80px solid transparent;
+    border-left:100px solid #6FB440;
+    border-bottom:80px solid transparent;
+    top:50%;
+    left:50%;
+    transform:translate(100%,-50%)
+}
+[b]{
+    background:#ACEB3F;
+    transform:translate(30%,-50%)
+}
+[b]:before{
+    content:"";
+    position:fixed;
+    border-top:80px solid transparent;
+    border-right:100px solid #ACEB3F;
+    border-bottom:80px solid transparent;
+    top:50%;
+    left:50%;
+    transform:translate(-200%,-50%)
+}
