@@ -1,35 +1,31 @@
 <body bgcolor=B0ACD5>
 <div>
 <p a>
-<p b>
 </div>
 <p c>
 <style>
 *{
-    margin:0
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
 }
 div{
     width:220;
-    height:160;
-    margin:-10 80;
+    height:200;
+    transform:translate(-50%,-100%);
     overflow:hidden
 }
 p{
     width:80;
     height:80;
-    border-radius:50%
+    border-radius:50%;
+    transform:translate(-50%,75%)
 }
 [a]{
-    margin:60 20;
-    width:100;
-    height:100;
-    border:50px solid #6A5885
-}
-[b]{
-    margin:-210 70;
-    border:10px solid #6A5885
+    box-shadow:0 0 0 10px #6A5885,0 0 0 20px #6A5885,0 0 0 30px #6A5885,0 0 0 40px #6A5885,0 0 0 60px #6A5885;
 }
 [c]{
     background:#6A5885;
-    margin:30 160
-}
+    transform:translate(-50%,25%)
+}      
