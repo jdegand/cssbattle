@@ -1,0 +1,43 @@
+<body bgcolor=FFF45F>
+<p a>
+<p b>
+<p c>
+<p d>
+<div>
+<style>
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+}
+p{
+    --c:#0098D1;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    border-bottom:50px solid var(--c);
+}
+[a]{
+    transform:translate(18%,-137%) rotate(-45deg);
+    -webkit-box-reflect:above -14px;
+}
+[b]{
+    transform:translate(-7%,86%) rotate(45deg);
+    -webkit-box-reflect:above -14px;
+}
+[c]{
+    --c:#403571;
+    transform:translate(-93%,85%) rotate(-45deg);
+    -webkit-box-reflect:above -14px;
+}
+[d]{
+    --c:#403571;
+    transform:translate(-118%,-136%) rotate(45deg);
+    -webkit-box-reflect:above -14px;
+}
+div{
+    width:120;
+    height:120;
+    background:linear-gradient(to right,#0098D1 0%,#0098D1 50%,#403571 50%,#403571 100%);
+    transform:translate(-50%,-50%);
+}
