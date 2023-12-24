@@ -2,27 +2,38 @@
 <div>
 <p a>
 <p b>
+<p c>
+<p d>
 <style>
 *{
-    margin:0
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
 }
 div{
-    margin:0 170;
     width:60;
     height:400;
     background:#FFF579;
+    transform:translate(-50%,-50%)
 }
 [a]{
-    width:0;
-    border-top:70px solid #FFF579;
-    border-right:70px solid transparent;
-    margin:0 60;
-    -webkit-box-reflect:below 161px
+    border-top:75px solid #FFF579;
+    border-right:75px solid transparent;
+    transform:translate(33%,-202%)
 }
 [b]{
-    margin:-70px -70px;
-    width:0;
-    border-top:70px solid #FFF579;
-    border-left:71px solid transparent;
-    -webkit-box-reflect:below 161px
+    border-top:75px solid #FFF579;
+    border-left:75px solid transparent;
+    transform:translate(-135%,-202%)
+}
+[c]{
+    border-bottom:100px solid #FFF579;
+    border-left:100px solid transparent;
+    transform:translate(-101.5%,50%)
+}
+[d]{
+    border-bottom:100px solid #FFF579;
+    border-right:100px solid transparent;
+    transform:translate(0,50%)
 }
