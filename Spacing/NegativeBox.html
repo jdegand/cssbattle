@@ -1,5 +1,38 @@
+<body bgcolor=172D2C>
+<p c>
+<p l>
+<style>
+*{
+  margin:0;
+  position:fixed
+}
+[c]{
+  width:0;
+  border-top:65px solid #172D2C;
+  border-left:180px solid #E9AF53;
+  border-bottom:65px solid #172D2C;
+  top:20;
+  right:20
+}
+[l]{
+  top:40%;
+  left:41%;
+  height:130;
+  width:180;
+  transform:skew(0,20deg);
+  background:#E9AF53;
+  margin-top:-3;
+  margin-left:-144
+}
+</style>
+
 <!--https://riptutorial.com/css/example/8071/3d-cube-->
 <!--https://codepen.io/ooo/pen/QomVgY-->
+
+<!--
+
+commented out code is the implementation I had before the target was changed
+since 100% was not unobtainable
 
 <p a></p>
 <p b></p>
@@ -10,114 +43,64 @@
   <div class="left side"></div>
   <div class="right side"></div>
 </div>
-
 <style>
-  * {
- 	  margin:0;
-    background: #000;
+  *{
+    margin:0;
+    background:#000;
     position:fixed;
   }
- 
   [a]{
     width:200;
     height:220;
     background:#172D2C;
     top:0;
-    right:0;
+    right:0
   }
   [b]{
     width:200;
     height:250;
     background:#172D2C;
     top:50;
-    left:0;
+    left:0
   }
   [c]{
-      width: 0;
-      height: 0;
-      border-top: 75px solid #172D2C;
-      border-left: 200px solid #E9AF53;
-      border-bottom: 75px solid #172D2C;
-      top: 0;
-      right: 0;
+    width:0;
+    height:0;
+    border-top:75px solid #172D2C;
+    border-left:200px solid #E9AF53;
+    border-bottom:75px solid #172D2C;
+    top:0;
+    right:0
   }
   [d]{
-      width: 0;
-      height: 0;
-      border-top: 75px solid transparent;
-      border-right: 200px solid #172D2C;
-      border-bottom: 75px solid transparent;
+    width:0;
+    height:0;
+    border-top:75px solid transparent;
+    border-right:200px solid #172D2C;
+    border-bottom:75px solid transparent
   }
-  .box {
-      top:40%;
-      left: 41%;
-    }
-
-  .side {
-      box-sizing: border-box;
-      height: 146px;
-    }
-
-  .left {
-      width: 210px;
-      transform: skew(-4deg, 20deg);
-      background: #E9AF53;
-      margin-top: -5;
-      margin-left: -170px;
-    }
-
-  .right {
-      position: absolute;
-      bottom: -133px;
-      left: 36px;
-      width: 250px;
-      transform: skew(0, -20deg);
-      background: #172D2C;
-    }
-
-</style>
-
-<!-- tweaked result since target changed 6/22/22 
-
-<p c></p>
-<p e></p>
-<div class="box">
-  <div class="left side"></div>
-</div>
-
-<style>
-  * {
- 	  margin:0;
-    background: #172D2C;
-    position:fixed;
-  }
-  [c]{
-    width: 0;
-    height: 0;
-    border-top: 65px solid #172D2C;
-    border-left: 180px solid #E9AF53;
-    border-bottom: 65px solid #172D2C;
-    top: 20;
-    right: 20;
-  }
-  .box {
+  .box{
     top:40%;
-    left: 41%;
+    left:41%
   }
-
-  .side {
-    box-sizing: border-box;
-    height: 131px;
+  .side{
+    box-sizing:border-box;
+    height:146px
   }
-
-  .left {
-    width: 181px;
-    transform: skew(0deg, 20deg);
-    background: #E9AF53;
-    margin-top: -4;
-    margin-left: -145px;
+  .left{
+    width:210px;
+    transform:skew(-4deg, 20deg);
+    background:#E9AF53;
+    margin-top:-5;
+    margin-left:-170px
+  }
+  .right{
+    position:absolute;
+    bottom:-133px;
+    left:36px;
+    width:250px;
+    transform:skew(0,-20deg);
+    background:#172D2C
   }
 </style>
-
-
 -->
