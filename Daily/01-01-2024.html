@@ -1,0 +1,52 @@
+<!--https://alvaromontoro.com/blog/67970/drawing-a-triangle-with-css-->
+<!--https://usefulangle.com/post/333/css-triangle-->
+
+<!--Problems with the clip path shape of the triangle 99.9-->
+<body bgcolor=14313E>
+<p a>
+<p b>
+<style>
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+}
+[a]{
+    width:144;
+    height:144;
+    background:repeating-linear-gradient(0deg,#BD3F4C 0,15px,#F16348 15px,#F16348 35px);
+    clip-path:polygon(50% 4%,100% 100%,0 100%);
+    transform:translate(-50%,-48%)
+}
+[b]{
+    width:30;
+    height:30;
+    background:#F16348;
+    border-radius:50%;
+    transform:translate(-50%,-250%)
+} 
+</style>
+    
+<!--Different triangle clip path - repeating gradient background color problem at the top of the triangle 99.9-->
+<body bgcolor=14313E>
+<p a>
+<p b>
+<style>
+*{
+    margin:0
+}
+[a]{
+    width:150;
+    height:150;
+    background:repeating-linear-gradient(0deg,#BD3F4C,15px,#F16348 15px,#F16348 35px);
+    clip-path:polygon(50% 10%,100% 100%,0 100%);
+    margin:75 125
+}
+[b]{
+    width:30;
+    height:30;
+    background:#F16348;
+    border-radius:50%;
+    margin:-225 185
+}
