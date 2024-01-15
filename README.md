@@ -47,7 +47,6 @@
 - [Unused CSS](https://unused-css.com/blog/css-half-circle/) - css half circle
 - [Stack Overflow](https://stackoverflow.com/questions/39339196/how-to-make-circles-repeat-in-the-background-of-an-element-in-full-css) - how to make circles repeat in the background of an element
 - [Stack Exchange](https://codegolf.stackexchange.com/questions/259254/is-there-any-less-code-way-to-make-a-leaf-eye-shape-in-css) - eye shape in css
-- [Stack Overflow](https://stackoverflow.com/questions/26961221/how-to-make-an-oval-in-css)- oval 
 - [CSS Tricks](https://css-tricks.com/how-to-play-and-pause-css-animations-with-css-custom-properties) - play and pause css animations
 - [W3 Schools](https://www.w3schools.com/howto/howto_css_loader.asp) - css loader
 - [Stack Overflow](https://stackoverflow.com/questions/37437141/css-border-shorthand-when-each-border-has-a-different-width) - css border shorthand when each border has a different width
@@ -72,4 +71,13 @@
 - [Stack Overflow](https://stackoverflow.com/questions/16231184/how-to-create-a-transparent-triangle-with-border-using-css) - how to create a transparent triangle with border using css
 - [Stack Overflow](https://stackoverflow.com/questions/62759278/element-with-border-radius-inside-element-with-border-radius-is-not-consistent) - element with border radius inside element with border radius is not consistent
 - [Stack Overflow](https://stackoverflow.com/questions/18012420/draw-diagonal-lines-in-div-background-with-css) - draw diagonal lines in div background with css
-- [Medium](https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d) - html css how to split a background into 2 colors
+- [Medium](https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d) - HTML CSS how to split a background into 2 colors
+- [LogRocket Blog](https://blog.logrocket.com/how-to-create-yin-yang-symbol-pure-css) - yin yang symbol pure CSS
+- [Codepen](https://codepen.io/AdamSSenniN/pen/xZpaow) - how to create yin yang symbol pure CSS
+- [Blog](https://alvaromontoro.com/blog/67970/drawing-a-triangle-with-css) - drawing a triangle with CSS
+- [Useful Angle](https://usefulangle.com/post/333/css-triangle) - CSS triangle
+- [Github](https://github.com/w3c/csswg-drafts/issues/7103) - box shadow and border-radius doesn't always look right
+- [Stack Overflow](https://stackoverflow.com/questions/22352311/how-do-i-draw-a-diagonal-div) - how do I draw a diagonal div
+- [CSS Tricks](https://css-tricks.com/a-css-golfing-exercise/) - a CSS golfing exercise
+- [Sitepoint](https://www.sitepoint.com/code-challenge-2-4-tips-for-higher-scores-in-cssbattle-dev/) - CSS battle tips
+- [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) - CSS Nesting
