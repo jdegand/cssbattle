@@ -1,44 +1,37 @@
 <body bgcolor=6CB3A9>
 <p a>
-<div>
+<p b>
+<p c>
 <style>
-  *{
-    margin:0;
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%)
-  }
-  [a]{
-    width:180;
-    height:180;
-    background:#781728;
-    border-radius:50%;
-  }
-  [a]::before{
-    content:'';
-    position:absolute;
-    transform:translate(-4%,-11%);
-    height:0;
-    width:195;
-    border-top:90px solid #D25B70;
-    border-radius:90px 90px 0 0
-  }
-  [a]::after{
-    content:'';
-    position:absolute;
-    transform:translate(-4%,111%);
-    height:0;
-    width:195;
-    border-bottom: 90px solid #FFF;
-    border-radius:0 0 90px 90px
-  }
-  div{
-    width:50;
-    height:50;
-    background:#F6DF96;
-    border-radius:50%;
-    z-index:5;
-    border:10px solid #781728
-  }
-  
+*{
+  margin:0;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+}
+[a]{
+  width:200;
+  height:200;
+  border-radius: 50%;
+  background:linear-gradient(to bottom,
+    #D25B70 0,
+    #D25B70 45%,
+    #6CB3A9 45%,
+    #6CB3A9 55%,
+    #FFF 55%,
+    #FFF 100%
+  )
+}
+[b]{
+  width:180;
+  height:20;
+  background:#781728
+}
+[c]{
+  width:50;
+  height:50;
+  background:#F6DF96;
+  border-radius:50%;
+  border:10px solid #781728
+}
