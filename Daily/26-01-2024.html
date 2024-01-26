@@ -1,13 +1,11 @@
+<!--https://stackoverflow.com/questions/4157005/css-positioning-z-index-negative-margins-->
 <body bgcolor=0D2328>
 <p a>
 <p b>
 <p c>
 <style>
 *{
-    margin:0;
-    position:fixed;
-    top:50%;
-    left:50%
+    margin:0
 }
 p{
     height:40
@@ -15,18 +13,19 @@ p{
 [a]{
     width:250;
     background:#19B3F1;
-    transform:translate(-50%,-175%)
+    margin:80 75
 }
 [b]{
-    width:200;
-    background:#80CDF6;
-    transform:translate(-50%);
-    z-index:3
-}
-[c]{
     width:20;
     height:250;
     background:#357597;
-    transform:translate(-300%,-12%);
-    -webkit-box-reflect:right 80px
+    -webkit-box-reflect:right 5em;
+    margin:-80 140
+}
+[c]{
+    width:200;
+    background:#80CDF6;
+    margin:-220 100;
+    position:relative;
+    z-index:3
 }
