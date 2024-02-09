@@ -1,0 +1,43 @@
+<!--
+// clip-path:polygon(0 100%,50% 0,100% 100%);
+
+// Clip path or rotation problems?
+
+// Same score using linear-gradient and repeating-linear-gradient
+// Don't think background is the problem.  It may be slightly off but with better triangle clip path > 99.5.
+// I think the problem is the clip-path.  
+// If you add rotation to the linear-gradient, you may have to rework the whole gradient.  
+-->
+
+<body bgcolor=40234B>
+<p a>
+<style>
+*{
+    position:fixed;
+    top:50%;
+    left:50%
+}
+[a]{
+    width:240;
+    height:200;
+    background:repeating-linear-gradient(#A94EA4 20px 36px,#40234B 36px 46px);
+    clip-path:polygon(0 100%,50% 0,100% 100%);
+    transform:translate(-60%,-82%)rotate(-60deg)
+}
+</style>
+
+<body bgcolor=40234B>
+<p a>
+<style>
+*{
+    position:fixed;
+    top:50%;
+    left:50%
+}
+[a]{
+    width:240;
+    height:200;
+    background:linear-gradient(#A94EA4 3px 13px,#40234B 13px 23px, #A94EA4 23px 40px,#40234B 40px 50px, #A94EA4 50px 63px, #40234B 65px 75px, #A94EA4 75px 91px, #40234B 91px 102px, #A94EA4 102px 117px,#40234B 117px 127px,#A94EA4 127px 144px,#40234B 144px 154px,#A94EA4 154px 170px,#40234B 170px 180px,#A94EA4 180px);
+    clip-path:polygon(0 100%,50% 0,100% 100%);
+    transform:translate(-61.5%,-82.5%)rotate(-60deg)
+}
