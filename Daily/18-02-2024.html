@@ -1,0 +1,56 @@
+<!-- similar to PilotBattle/WigglyMoustache -->
+<body bgcolor=#8B0051>
+<p>
+<div r></div>
+<div o></div>
+<style>
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+}
+p{
+    width:80;
+    height:80;
+    border:20px solid#FCDDEB;
+    border-radius:50%;
+    transform:translate(-9%,-50%);
+    -webkit-box-reflect:left -20px
+}
+[o]{
+    width:80;
+    height:40;
+    border-radius:50% 50% 0 0 / 100% 100% 0 0;
+    border:20px solid #F74444;
+    border-bottom:0;
+    transform:translate(-92%, -100%);  
+    z-index:2
+} 
+[o]::after{
+    content:'';
+    width:20;
+    height:20;
+    background:#FCDDEB;
+    position:fixed;
+    border-radius:50%;
+    transform:translate(-100%,148%)
+}
+[r]{
+    width:80;
+    height:40;
+    border-radius:50% 50% 0 0/100% 100% 0 0;
+    border:20px solid #F74444;
+    border-bottom:0;
+    transform:translate(-8.5%,0) rotate(180deg);  
+    z-index:2
+}
+[r]::after{
+    content:'';
+    width:20;
+    height:20;
+    background:#F74444;
+    position:fixed;
+    border-radius:50%;
+    transform:translate(-100%,150%)
+}
