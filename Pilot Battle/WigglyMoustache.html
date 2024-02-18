@@ -1,74 +1,37 @@
 <body bgcolor=F5D6B4>
-<div l></div>
-<div r></div>
-<div o>
-  <div i>
-</div>
+<p l>
+<p r>
+<p o>
+<b>
 <style>
   *{
-    margin:0
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%
+  }
+  p{
+    width:60;
+    height:30;
+    border:20px solid #D86F45;
+    border-bottom:0;
+    border-radius:50% 50% 0 0/100% 100% 0 0
   }
   [o]{
-    width:60;
     height:32;
-    border-radius:50% 50% 0 0/100% 100% 0 0;
-    border:20px solid #D86F45;
-    border-bottom:0;
-    position:fixed;
-    top:58%;
-    left:70%;
-    transform:translate(-130%,-142%)rotate(0deg);  
-    z-index:2
+    transform:translate(-50%,-98%)rotate(0deg)
   } 
-  [i]{ 
-    position:fixed;
-    border-radius: 50%;
-    right:20;
-    left:20;
-    top:20;
-    bottom:20
-  }
   [l]{
-    width:60;
-    height:30;
-    border-radius:50% 50% 0 0 / 100% 100% 0 0;
-    border:20px solid #D86F45;
-    border-bottom:0;
-    position:fixed;
-    top:58%;
-    left:30%;
-    transform:translate(-50%,-49%)rotate(180deg);  
-    z-index:2
-  }
-  [l]::before{
-    content: '';
-    width:20;
-    height:20;
-    background:#D86F45;
-    position:fixed;
-    top:62%;
-    left:100%;
-    border-radius:50%
+    transform:translate(-130%,-1%)rotate(180deg)
   }
   [r]{
-    width:60;
-    height:30;
-    border-radius:50% 50% 0 0/100% 100% 0 0;
-    border:20px solid #D86F45;
-    border-bottom:0;
-    position:fixed;
-    top:58%;
-    left:70%;
-    transform:translate(-50%,-49%)rotate(180deg);  
-    z-index:2
+    transform:translate(30%,-1%)rotate(180deg)
   }
-  [r]::after{
-    content:'';
+  b{
     width:20;
     height:20;
     background:#D86F45;
-    position:fixed;
-    top:64%;
-    left:-33%;
-    border-radius:50%
+    border-radius:50%;
+    transform:translate(-650%,20%);
+    box-shadow:240px 0#D86F45 
   }
