@@ -81,3 +81,5 @@
 - [CSS Tricks](https://css-tricks.com/a-css-golfing-exercise/) - a CSS golfing exercise
 - [Sitepoint](https://www.sitepoint.com/code-challenge-2-4-tips-for-higher-scores-in-cssbattle-dev/) - CSS battle tips
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) - CSS Nesting
+- [Medium](https://kswanie21.medium.com/slanted-background-with-clip-path-css-property-584b5564a533) - slanted background with clip path
+- [Stack Overflow](https://stackoverflow.com/questions/18496383/tapered-div-using-css) - tapered div using CSS
