@@ -1,31 +1,27 @@
 <!--
 https://stackoverflow.com/questions/40752681/making-a-smile-horseshoe-half-circle-with-rounded-edges-in-css
-
 https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-another-using-css
 -->
 
 <body bgcolor=191919>
-<p d>
 <p a>
-<p b>
 <div hc>
-  <div b lc>
-  <div b rc>
+  <b lc>
+  <b rc>
 <style>
 *{
-  padding:0;
-  margin:0
+  margin:0;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
 }
 [a]{
   border-radius:50%;
   box-shadow:0 0 0 30px #824B20;
   width:100;
   height:100;
-  background:#E08027;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%)
+  background:#E08027
 }
 [hc]{
   height:80;
@@ -34,36 +30,18 @@ https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-an
   border-top:20px solid #000;
   border-left:20px solid #000;
   border-bottom:20px solid #000;
-  position:fixed;
-  top:60%;
-  left:50%;
-  transform:translate(-50%,-50%) rotate(270deg);
-  border-color:#FFF58F;
-  background:transparent;
+  transform:translate(-50%,-25%) rotate(270deg);
+  border-color:#FFF58F
 }
-[b]{
+b{
   background-color:#FFF58F;
   width:20;
   height:20;
-  border-radius:100%;
-  position:fixed
-}
+  border-radius:50%
+} 
 [lc]{
-  position:fixed;
-  right:-10;
-  top:-20
+  transform:translate(52%,-300%)
 }
 [rc]{
-  position:fixed;
-  bottom:-20;
-  right:-10
-}
-[d]{
-  width:100;
-  height:100;
-  background:#191919;
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:1
+  transform:translate(-52%,450%)
 }
