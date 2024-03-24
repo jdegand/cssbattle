@@ -84,3 +84,4 @@
 - [Medium](https://kswanie21.medium.com/slanted-background-with-clip-path-css-property-584b5564a533) - slanted background with clip path
 - [Stack Overflow](https://stackoverflow.com/questions/18496383/tapered-div-using-css) - tapered div using CSS
 - [Play CSS](https://playcss.app/) - CSS Battle Knockoff Play CSS
+- [Codepen](https://codepen.io/adamlaki/pen/JxJwwB/) - CSS triangle clip paths
