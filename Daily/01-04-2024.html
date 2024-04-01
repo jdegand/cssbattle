@@ -1,0 +1,46 @@
+<body bgcolor=#0A6190>
+<p a>
+<p b>
+<p c>
+<p d>
+<div></div>
+<style>
+*{
+    margin:0;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+p{
+    width:190;
+    height:100;
+    background:#EFF8FE
+}
+[a]{
+    clip-path:polygon(50% 0,100% 100%,0 100%);
+    transform:translate(-50%,-100%)
+}
+[b]{
+    clip-path:polygon(100% 0,0 0,50% 100%);
+    transform:translate(-50%,-1%)
+}
+[c]{
+    width:24;
+    height:44;
+    background-color:#EFF8FE;
+    clip-path:polygon(100% 100%,100% 0,0 50%);
+    transform:translate(-607%,-50%)
+}
+[d]{
+    width:24;
+    height:44;
+    background-color:#EFF8FE;
+    clip-path:polygon(0 0,0 100%,100% 50%);
+    transform:translate(506%,-50%)
+}
+div{
+    width:250;
+    height:40;
+    background:#EFF8FE
+}
