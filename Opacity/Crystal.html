@@ -1,0 +1,88 @@
+<body bgcolor=5F133F>
+<p a>
+<p b>
+<p c>
+<div>
+<style>
+[a]{
+    width:50;
+    height:160;
+    background:#F075B0;
+    margin:70 167
+}
+[b]{
+    width:160;
+    height:50;
+    background:#F075B0;
+    margin:-175 113;
+    transform:rotate(30deg)
+}
+[c]{
+    width:160;
+    height:50;
+    background:#F075B0;
+    margin:125 112;
+    transform:rotate(-30deg)
+}
+[a]:before{
+    content:"";
+    position:fixed;
+    width:50;
+    height:30;
+    top:40;
+    background:#F7BED9;
+    clip-path:polygon(50% 0,0 100%,100% 100%);
+}
+[a]:after{
+    content:"";
+    position:fixed;
+    width:50;
+    height:30;
+    bottom:40;
+    background:#F7BED9;
+    clip-path:polygon(100% 0,0 0,50% 100%);
+}
+[b]:before{
+    content:"";
+    position:fixed;
+    width:30;
+    height:51;
+    right:-29;
+    background:#F7BED9;
+    clip-path:polygon(0 0, 0 100%, 100% 50%);
+}
+[b]:after{
+    content:"";
+    position:fixed;
+    width:30;
+    height:51;
+    left:-30;
+    background:#F7BED9;
+    clip-path: polygon(100% 100%,100% 0,0 50%)
+}
+[c]:before{
+    content:"";
+    position:fixed;
+    width:30;
+    height:50;
+    right:-30;
+    background:#F7BED9;
+    clip-path:polygon(0 0, 0 100%, 100% 50%);
+}
+[c]:after{
+    content:"";
+    position:fixed;
+    width:30;
+    height:50;
+    left:-30;
+    background:#F7BED9;
+    clip-path:polygon(100% 100%,100% 0,0 50%)
+}
+div{
+    width:50;
+    height:50;
+    position:fixed;
+    background:#F7BED9;
+    margin:-175 167;
+    border-radius:50%;
+}
