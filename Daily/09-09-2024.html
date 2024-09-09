@@ -1,0 +1,29 @@
+<div></div>
+<style>
+  *{
+    background:#FCEBEB
+  }
+div{
+  position:relative;
+  margin:48 42;
+
+  &::before,
+  &:after {
+    position:absolute;
+    content:'';
+    left:148;
+    top:0;
+    width:151;
+    height:225;
+    background:#E95D29;
+    border-radius:160px 160px 0 0;
+    transform:rotate(-45deg);
+    transform-origin:0 100%;
+  }
+
+  &::after {
+    left:0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+}
