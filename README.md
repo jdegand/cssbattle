@@ -4,16 +4,16 @@
 
 - With these solutions, you should get close to the Top 100 when you incorporate all the optimized open solutions.
 - I don't care about the leaderboard, as I knew I didn't want to dedicate the time necessary to be in the top 50.
-- If you look at the `pro` users, you can see how many times they verify solutions and the attempts can be quite high for most of the top scorers.
-- The daily CSS battle is good for engagement, but it is tough to keep up with and I try to limit the time I spend to 15 minutes max. This can create problems when some daily battles are too difficult for such a time limit. Also, I avoid trying newer techniques to just get the battle done as quickly as possible.
-- I feel like the harder main battles typically require 30-45 mins to achieve 100%.  
-- The best solutions from the earliest battles relied on `clip-path` and `unicode`. I feel `gradient` properties have become the preferred approach to achieve a top solution. Also, `border` can be important to duplicate items.
+- If you look at the `pro` users, you can see how many times they verify solutions, and the attempts can be quite high for most of the top scorers.
+- The daily CSS battle is good for engagement, but it is tough to keep up with, and I try to limit the time I spend to 15 minutes max. This can create problems when some daily battles are too difficult for such a time limit. Also, I avoid trying newer techniques to just get the battle done as quickly as possible.
+- I feel like the harder main battles typically require 30-45 minutes to achieve 100%.  
+- The best solutions from the earliest battles relied on `clip-path` and `unicode`. I feel `gradient` properties have become the preferred approach to achieve a top solution. Also, `border` and `box-shadow` can be important to duplicate items.
 - [CSS Nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) is pretty much required for the best solutions.
 - Using `clip-path` for triangles is a gamble and can be time-consuming to adjust.
 - There have been a few battles that were unsolvable. `Abstract Plate` seemed impossible to solve, and it appears to have been adjusted (or someone posted a solution). The design of `Negative Box` was changed to allow easier completion.  A daily battle was unsolvable, and they adjusted the stats so 100% completion for daily battles was retained for eligible users.
 - It is important to note that the battles are designed in Figma. The creators can't verify all battles are solvable ahead of time.
 - To get the best solutions, you need to incorporate tools and use generators and online editors.  AI is not much help to CSS golfing.
-- You need to use the `Chrome` browser to ensure accurate verification. Even then, the preview is slightly off, and it can be helpful to use the `CSS Battle Previewer 2.0` to improve your solution.  However, the previewer is only updated for the main battles.
+- You need to use the `Chrome` browser to ensure accurate verification. Even then, the preview is slightly off, and it can be helpful to use the `CSS Battle Previewer 2.0` to improve your solution. However, the previewer is only updated for the main battles.
 
 ## Useful Resources
 
@@ -99,3 +99,4 @@
 - [Stack Overflow](https://stackoverflow.com/questions/18496383/tapered-div-using-css) - tapered div using CSS
 - [Play CSS](https://playcss.app/) - CSS Battle Knockoff Play CSS
 - [Codepen](https://codepen.io/adamlaki/pen/JxJwwB/) - CSS triangle clip paths
+- [Stack Overflow](https://stackoverflow.com/questions/16263358/quarter-of-a-ring-with-css-and-html) - quarter of a ring with css and html
