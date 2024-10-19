@@ -1,0 +1,18 @@
+<style>
+*>*{
+    position:relative;
+    border-radius:50%;
+    outline:250px solid #62306D;
+    margin:50 25%
+}
+*>*::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:radial-gradient(90px,#62306D 60px,#000 0),conic-gradient(#E38F66 10%,#F7EC7D 0);
+    transform:rotate(-20deg);
+    z-index:-1
+}
