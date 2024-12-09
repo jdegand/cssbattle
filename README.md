@@ -100,3 +100,4 @@
 - [Play CSS](https://playcss.app/) - CSS Battle Knockoff Play CSS
 - [Codepen](https://codepen.io/adamlaki/pen/JxJwwB/) - CSS triangle clip paths
 - [Stack Overflow](https://stackoverflow.com/questions/16263358/quarter-of-a-ring-with-css-and-html) - quarter of a ring with css and html
+- [CSS Generators](https://css-generators.com/) - A wide range of CSS generators to make your developer's life easier!
