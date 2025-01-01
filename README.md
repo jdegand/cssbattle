@@ -1,5 +1,7 @@
 # CSS Battle Solutions
 
+**Note**: I have stopped doing the daily battle. I completed every daily CSS Battle from 6/28/23 to 1/1/25.
+
 ## Thoughts
 
 - With these solutions, you should get close to the Top 100 when you incorporate all the optimized open solutions.
