@@ -10,31 +10,21 @@
 div{
     position:absolute;
     top:60%;
-    left:50%
+    left:50%;
+    width:30;
+    height:100;
+    background:#62306D;
+    border-radius:50px
 }
 [a]{
-    width:30;
-    height:100;
-    background:#62306D;
-    border-radius:50px;
-    transform:translate(-350%,-110%);
-    z-index:5
+    transform:translate(-350%,-110%)
 }
 [b]{
-    width:30;
-    height:100;
-    background:#62306D;
-    border-radius:50px;
-    transform:translate(-50%,-110%);
-    z-index:5
+    transform:translate(-50%,-110%)
 }
 [c]{
-    width:30;
-    height:100;
     background:#FFFBDA;
-    border-radius:50px;
-    transform:translate(250%,-110%);
-    z-index:5
+    transform:translate(250%,-110%)
 }
 p{
     position:relative;
@@ -43,26 +33,22 @@ p{
     top:-70;
     left:150
 }
-p::before {
+p:before,p:after{
     position:fixed;
     content: "";
-    width:61;
-    height:120;
-    border-radius:60px 60px 0 0;
-    transform:translate(54%) rotate(-180deg);
-    transform-origin:0 100%;
-    border:30px solid #62306D;
-    border-bottom:0;
-    z-index:1
-}
-p::after{
-    position:fixed;
-    content:"";
     width:60;
     height:120;
     border-radius:60px 60px 0 0;
-    transform:translate(129.5%) rotate(-180deg);
-    transform-origin:0 100%;
-    border:30px solid #FFFBDA;
+    transform-origin:0 100%
+}
+p:before{
+    border:30px solid#62306D;
     border-bottom:0;
+    transform:translate(54%)rotate(-180deg);
+    z-index:1
+}
+p:after{
+    border:30px solid#FFFBDA;
+    border-bottom:0;
+    transform:translate(129%)rotate(-180deg)
 }
