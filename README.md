@@ -17,6 +17,16 @@
 - To get the best solutions, you need to incorporate tools and use generators and online editors.  AI is not much help to CSS golfing.
 - You need to use the `Chrome` browser to ensure accurate verification. Even then, the preview is slightly off, and it can be helpful to use the `CSS Battle Previewer 2.0` to improve your solution. However, the previewer is only updated for the main battles.
 
+## Battles that need to be updated (99.9% or lower)
+
+- Lookaway
+- Black Widow
+- Froggy
+- Pacman
+- Abstract Plate
+- RootLearn
+- Pieces
+
 ## Useful Resources
 
 - [CSS Battle](https://www.cssbattle.dev)
