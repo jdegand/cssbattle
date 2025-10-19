@@ -26,6 +26,9 @@
 - Abstract Plate
 - RootLearn
 - Pieces
+- Magneto's Helmet
+- Abstract Firefly
+- Sitepoint Logo
 
 ## Useful Resources
 
