@@ -38,7 +38,6 @@
 - [Github](https://malcolmkiano.github.io/clip-path-generator/) - clip path generator
 - [Github](https://yqnn.github.io/svg-path-editor/) - SVG path editor
 - [CSS Tricks](https://css-tricks.com/the-shapes-of-css/) - shapes of CSS
-- [Shark Coder](https://sharkcoder.com/visual/shapes) - CSS shapes
 - [Paulund](https://paulund.co.uk/how-to-create-different-shapes-in-css) - CSS shapes
 - [Stack Overflow](https://stackoverflow.com/questions/22406661/how-to-make-one-circle-inside-of-another-using-css) - circle inside another circle
 - [Stack Overflow](https://stackoverflow.com/questions/30711203/how-do-i-create-a-teardrop-in-html) - teardrop
