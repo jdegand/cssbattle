@@ -33,7 +33,7 @@
 ## Useful Resources
 
 - [CSS Battle](https://www.cssbattle.dev)
-- [CSS Battle Previewer 2.0](https://tc70f3.csb.app/)
+- [CSS Battle Previewer 3.0](https://cssutils.com/cssbattle-previewer/)
 - [Github](https://github.com/cssbattle/forum) - CSS Battle Forum
 - [Github](https://malcolmkiano.github.io/clip-path-generator/) - clip path generator
 - [Github](https://yqnn.github.io/svg-path-editor/) - SVG path editor
