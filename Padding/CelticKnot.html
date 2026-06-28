@@ -1,0 +1,64 @@
+<!--Looks terrible - CSS Battle Previewer was really needed here -->
+<!--Seems like CSS Battle Website validation engine had changes or Chrome itself -->
+<div></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<p></p>
+<p e></p>
+<style>
+*{
+  background:#EEB850
+}
+div{
+  width:40;
+  height:40;
+  border-radius:50%;
+  border:20px solid#394257;
+  margin:50 122
+}
+div::before{
+  content:'';
+  position:absolute;
+  width:30;
+  height:40;
+  background:#EEB850;
+  top:90;
+  left:160
+}
+[b]{
+  margin:-40 92
+}
+[b]::before{
+  width:40;
+  height:30;
+  top:160;
+  left:140
+}
+[c]{
+  margin:-50 182
+}
+[c]::before{
+  top:170;
+  left:210
+}
+[d]{
+  margin:-170 213
+}
+[d]::before{
+  width:40;
+  height:30;
+  top:110;
+  left:215
+}
+p{
+  width:120;
+  height:20;
+  background:#394257;
+  margin:150 132
+}
+[e]{
+  height:120;
+  width:20;
+  margin:-220 182
+}
