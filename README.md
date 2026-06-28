@@ -1,21 +1,22 @@
-# CSS Battle Solutions
+# CSSBattle Solutions
 
-**Note**: I have stopped doing the daily battle. I completed every daily CSS Battle from 6/28/23 to 1/1/25.
+**Note**: I have stopped doing the daily battle. I completed every daily CSSBattle from 6/28/23 to 1/1/25.
 
 ## Thoughts
 
 - With these solutions, you should get close to the Top 100 when you incorporate all the optimized open solutions.
 - I don't care about the leaderboard, as I knew I didn't want to dedicate the time necessary to be in the top 50.
 - If you look at the `pro` users, you can see how many times they verify solutions, and the attempts can be quite high for most of the top scorers.
-- The daily CSS battle is good for engagement, but it is tough to keep up with, and I try to limit the time I spend to 15 minutes max. This can create problems when some daily battles are too difficult for such a time limit. Also, I avoid trying newer techniques to just get the battle done as quickly as possible.
+- The daily CSSBattle is good for engagement, but it is tough to keep up with, and I try to limit the time I spend to 15 minutes max. This can create problems when some daily battles are too difficult for such a time limit. Also, I avoid trying newer techniques to just get the battle done as quickly as possible.
 - I feel like the harder main battles typically require 30-45 minutes to achieve 100%.  
 - The best solutions from the earliest battles relied on `clip-path` and `unicode`. I feel `gradient` properties have become the preferred approach to achieve a top solution. Also, `border` and `box-shadow` can be important to duplicate items.
 - [CSS Nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) is pretty much required for the best solutions.
 - Using `clip-path` for triangles is a gamble and can be time-consuming to adjust.
 - There have been a few battles that were unsolvable. `Abstract Plate` seemed impossible to solve, and it appears to have been adjusted (or someone posted a solution). The design of `Negative Box` was changed to allow easier completion.  A daily battle was unsolvable, and they adjusted the stats so 100% completion for daily battles was retained for eligible users.
 - It is important to note that the battles are designed in Figma. The creators can't verify all battles are solvable ahead of time.
-- To get the best solutions, you need to incorporate tools and use generators and online editors.  AI is not much help to CSS golfing.
-- You need to use the `Chrome` browser to ensure accurate verification. Even then, the preview is slightly off, and it can be helpful to use the `CSS Battle Previewer 2.0` to improve your solution. However, the previewer is only updated for the main battles.
+- To get the best solutions, you need to incorporate tools and use generators and online editors.
+- You need to use the `Chrome` browser to ensure accurate verification. Even then, the preview is slightly off, and it can be helpful to use the `CSSBattle Previewer` to improve your solution. However, the previewer is only updated for the main battles.
+- Unassisted AI will not solve many of these battles. You can’t simply upload the battle image to Gemini and expect a perfect match. Battle names often mislead agents, so omitting them is usually the better choice. Although AI has improved, it’s most effective when paired with picture‑matching libraries and backend systems that can drive it through an iterative prompting loop. A perfect match is essential before any golfing can begin.
 
 ## Battles that need to be updated (99.9% or lower)
 
@@ -32,9 +33,9 @@
 
 ## Useful Resources
 
-- [CSS Battle](https://www.cssbattle.dev)
-- [CSS Battle Previewer 3.0](https://cssutils.com/cssbattle-previewer/)
-- [Github](https://github.com/cssbattle/forum) - CSS Battle Forum
+- [CSSBattle](https://www.cssbattle.dev)
+- [CSSBattle Previewer](https://cssutils.com/cssbattle-previewer/)
+- [Github](https://github.com/cssbattle/forum) - CSSBattle Forum
 - [Github](https://malcolmkiano.github.io/clip-path-generator/) - clip path generator
 - [Github](https://yqnn.github.io/svg-path-editor/) - SVG path editor
 - [CSS Tricks](https://css-tricks.com/the-shapes-of-css/) - shapes of CSS
@@ -107,13 +108,13 @@
 - [Github](https://github.com/w3c/csswg-drafts/issues/7103) - box shadow and border-radius doesn't always look right
 - [Stack Overflow](https://stackoverflow.com/questions/22352311/how-do-i-draw-a-diagonal-div) - how do I draw a diagonal div
 - [CSS Tricks](https://css-tricks.com/a-css-golfing-exercise/) - a CSS golfing exercise
-- [Sitepoint](https://www.sitepoint.com/code-challenge-2-4-tips-for-higher-scores-in-cssbattle-dev/) - CSS battle tips
+- [Sitepoint](https://www.sitepoint.com/code-challenge-2-4-tips-for-higher-scores-in-cssbattle-dev/) - CSSBattle tips
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) - CSS Nesting
 - [Medium](https://kswanie21.medium.com/slanted-background-with-clip-path-css-property-584b5564a533) - slanted background with clip path
 - [Stack Overflow](https://stackoverflow.com/questions/18496383/tapered-div-using-css) - tapered div using CSS
-- [Play CSS](https://playcss.app/) - CSS Battle Knockoff Play CSS
+- [Play CSS](https://playcss.app/) - CSSBattle Knockoff Play CSS
 - [Codepen](https://codepen.io/adamlaki/pen/JxJwwB/) - CSS triangle clip paths
 - [Stack Overflow](https://stackoverflow.com/questions/16263358/quarter-of-a-ring-with-css-and-html) - quarter of a ring with css and html
 - [CSS Generators](https://css-generators.com/) - A wide range of CSS generators to make your developer's life easier!
-- [CSS Battle Toolbox](https://github.com/evanliomain/css-battle-toolbox) - A set of tools for CSS Battle, directly in the battle interface.
+- [CSS Battle Toolbox](https://github.com/evanliomain/css-battle-toolbox) - A set of tools for CSSBattle, directly in the battle interface.
 - [artlung-cssbattle-plugins](https://github.com/artlung/artlung-cssbattle-plugins)
