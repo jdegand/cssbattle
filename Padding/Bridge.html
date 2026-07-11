@@ -1,0 +1,114 @@
+<!--Started with Gemini AI solution and then progressively made adjustments to get 100%-->
+<!--Original AI solution (that I stuck with) was around 96.4% but I forgot to include exact colors in the prompt-->
+<!--Even then, AI on its own would have been very unlikely to get past 99.9% - its logic does not like overlapping elements-->
+<!--CSS in SVG /  Clip Path solution was explored and abandoned-->
+<div>
+    <nav></nav>
+    <section></section>
+    <aside></aside>
+    <article></article>
+    <header></header>
+    <footer></footer>
+    <p></p>
+    <p b></p>
+    <p c></p>
+    <p d></p>
+</div>
+<style>
+body{
+     margin:0
+}
+div {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color:#9076D8;
+    overflow: hidden;
+}
+/* Left and Right horizontal base tracks */
+nav {
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 400px;
+    height: 50px;
+    background-color:#2A272F;
+}
+/* Outer shape of the main bridge arch */
+section {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    width: 250px;
+    height: 150px;
+    background:linear-gradient(
+        180deg,
+        #2A272F,
+        #2A272F 70%,
+        #9076D8 70%
+    );
+    border-radius: 50px 50px 0 0;
+}
+/* Inner cutout to form the hollow bridge structure */
+aside {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    width: 150px;
+    height: 175px;
+    background-color:#9076D8;
+    border-radius:15px 15px 0 0;
+}
+/* Outer lower left radius masking block */
+article {
+    position: absolute;
+    top: 175px;
+    left: 75px;
+    width: 50px;
+    height: 50px;
+    background-color:#2A272F;
+    border-radius: 0 0 50px 0;
+}
+/* Outer lower right radius masking block */
+header {
+    position: absolute;
+    top: 175px;
+    left: 275px;
+    width: 50px;
+    height: 50px;
+    background-color:#2A272F;
+    border-radius: 0 0 0 50px;
+}
+/* Central isolated square element */
+footer {
+    position: absolute;
+    top: 175px;
+    left: 175px;
+    width: 50px;
+    height: 50px;
+    background-color:#2A272F;
+}
+p{
+    width:40;
+    height:40;
+    background:#2A272F;
+    margin:140 60;
+    position:fixed;
+}
+[b]{
+    width:15;
+    height:40;
+    background:#9076D8;
+    margin:135 60;
+    border-radius:0 0 40px
+}
+[c]{
+    margin:140 300
+}
+[d]{
+    width:15;
+    height:40;
+    margin:135 325;
+    border-radius:0 0 0 40px;
+    background:#9076D8;
+}
