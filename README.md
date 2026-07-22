@@ -7,16 +7,24 @@
 - With these solutions, you should get close to the Top 100 when you incorporate all the optimized open solutions.
 - I don't care about the leaderboard, as I knew I didn't want to dedicate the time necessary to be in the top 50.
 - If you look at the `pro` users, you can see how many times they verify solutions, and the attempts can be quite high for most of the top scorers.
-- The daily CSSBattle is good for engagement, but it is tough to keep up with, and I try to limit the time I spend to 15 minutes max. This can create problems when some daily battles are too difficult for such a time limit. Also, I avoid trying newer techniques to just get the battle done as quickly as possible.
-- I feel like the harder main battles typically require 30-45 minutes to achieve 100%.  
-- The best solutions from the earliest battles relied on `clip-path` and `unicode`. I feel `gradient` properties have become the preferred approach to achieve a top solution. Also, `border` and `box-shadow` can be important to duplicate items.
-- [CSS Nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) is pretty much required for the best solutions.
-- Using `clip-path` for triangles is a gamble and can be time-consuming to adjust.
-- There have been a few battles that were unsolvable. `Abstract Plate` seemed impossible to solve, and it appears to have been adjusted (or someone posted a solution). The design of `Negative Box` was changed to allow easier completion.  A daily battle was unsolvable, and they adjusted the stats so 100% completion for daily battles was retained for eligible users.
+- The daily CSSBattle was good for engagement, but it was tough to keep up with, so I limited the time I spent to 15 minutes. This created problems when some daily battles were too difficult for such a time limit. Also, I avoided trying newer techniques just to get the battles done as quickly as possible.
+- On occasion, I ended up spending more time on a battle, particularly when technical bugs or site issues prevented me from hitting 100%.
 - It is important to note that the battles are designed in Figma. The creators can't verify all battles are solvable ahead of time.
+- Some battles launched with game-breaking bugs. `Abstract Plate` and `Negative Box` both required post-release adjustments to become solvable.
+- As the rate of battles increased, fixing unsolvable daily battles was abandoned and stats were adjusted to preserve completion percentage.
+- The harder main battles typically required 30 to 45 minutes to achieve 100%. When I get stuck at 99.9%, it is often helpful to step away and return to them later. Using the CSSBattle Previewer site allows you to bypass a lot of tedious trial and error.
+- While CSSBattle's [tips]((https://cssbattle.dev/tips)) build a strong foundation, reaching the top of the leaderboard requires going far beyond the basics.
+- The best solutions from the earliest battles relied on `clip-path` and `unicode`. However, `gradient` properties have become the preferred approach for achieving optimal solutions. To lower character count, `border` and `box-shadow` should replace `gradient` properties. Using `linear-gradient` for too many shapes will balloon your character count. While `box-shadow` easily solves battles with a few shapes, it eventually becomes sub-optimal as shape count increases.
+- [CSS Nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) is helpful, but you will primarily want to use the `style` attribute on the `body` tag to reduce the need for extra element tags.
+- Refactoring is much easier when using `p` tags with custom attributes. Mixing multiple element types like `div` or headings often introduces unexpected margin conflicts.
+- You can temporarily set `margin: 0` to focus entirely on matching shape alignments, then define your final margins at the end. While I initially relied on `absolute` positioning, using pure `margin` proved to be a more efficient approach.
+- Using `clip-path` for triangles is a gamble and can be time-consuming to adjust.
 - To get the best solutions, you need to incorporate tools and use generators and online editors.
-- You need to use the `Chrome` browser to ensure accurate verification. Even then, the preview is slightly off, and it can be helpful to use the `CSSBattle Previewer` to improve your solution. However, the previewer is only updated for the main battles.
-- Unassisted AI will not solve many of these battles. You can’t simply upload the battle image to Gemini and expect a perfect match. Battle names often mislead agents, so omitting them is usually the better choice. Although AI has improved, it’s most effective when paired with picture‑matching libraries and backend systems that can drive it through an iterative prompting loop. A perfect match is essential before any golfing can begin.
+- You should use the `Chrome` browser to ensure accurate match verification. Even then, the in-game preview can be slightly off, so using the `CSSBattle Previewer` website (listed below) can help you perfect your solution. Keep in mind, however, that the previewer is only updated for the main battles.
+- If you find yourself using fractional values (like `10.5px`), you are likely dealing with a rendering or rounding error; surprisingly, a slightly worse-looking match in your browser might actually be the correct 100% solution.
+- Sub-pixel rendering errors are possible when using `border-radius` and `clip-path`.
+- Many colors can be compressed to shorter, three-character hex codes. Success varies widely, so this requires significant trial and error.
+- Unassisted AI will not solve many of these battles. You can’t simply upload the battle image to Gemini and expect a perfect match. Battle names often mislead agents, so omitting them is usually the better choice. Although AI has improved, it’s most effective when paired with picture‑matching libraries and backend systems that can drive it through an iterative prompting loop. A perfect match is essential before any golfing can begin. AI operates much like a hill-climbing algorithm—it is just as likely to degrade a solution as it is to improve it. Maximizing success requires guiding the model with precise, incremental prompts.
 
 ## Battles that need to be updated (99.9% or lower)
 
